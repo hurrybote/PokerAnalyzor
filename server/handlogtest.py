@@ -19,7 +19,7 @@ def split_filename(filename):
 
 def sep_handlog(handlog_lines):
     for log in handlog_lines:
-        if(bool(re.match(r'#[0-9]', log))):
+        if(bool(re.match(r'#\d{10,16}', log))):
 
     return
 
