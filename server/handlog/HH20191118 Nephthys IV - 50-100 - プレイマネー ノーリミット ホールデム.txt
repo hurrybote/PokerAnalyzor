@@ -1,0 +1,308 @@
+﻿PokerStars Hand #206307694563:  Hold'em No Limit (50/100) - 2019/11/18 22:32:51 ET
+Table 'Nephthys IV' 6-max (Play Money) Seat #2 is the button
+Seat 1: FoulOutsC773 (27020 in chips) 
+Seat 2: netguy2015 (3050 in chips) 
+Seat 3: Josman Nunes (24565 in chips) 
+Seat 4: splickaca (9900 in chips) 
+Seat 5: boobonita (65770 in chips) 
+Seat 6: hurrybote (10000 in chips) 
+Josman Nunes: posts small blind 50
+splickaca: posts big blind 100
+hurrybote: posts big blind 100
+*** HOLE CARDS ***
+Dealt to hurrybote [4h 2s]
+boobonita: folds 
+hurrybote: checks 
+FoulOutsC773: calls 100
+netguy2015: raises 2950 to 3050 and is all-in
+Josman Nunes: calls 3000
+splickaca: calls 2950
+hurrybote: folds 
+FoulOutsC773: calls 2950
+*** FLOP *** [2d Tc 3h]
+Josman Nunes: bets 5800
+splickaca: raises 1050 to 6850 and is all-in
+FoulOutsC773: calls 6850
+Josman Nunes: calls 1050
+*** TURN *** [2d Tc 3h] [9h]
+Josman Nunes: checks 
+FoulOutsC773: checks 
+*** RIVER *** [2d Tc 3h 9h] [2h]
+Josman Nunes: checks 
+FoulOutsC773: checks 
+*** SHOW DOWN ***
+Josman Nunes: shows [Td 6c] (two pair, Tens and Deuces)
+splickaca: mucks hand 
+FoulOutsC773: shows [3d Kc] (two pair, Threes and Deuces)
+Josman Nunes collected 19420 from side pot
+netguy2015: shows [Ts 6s] (two pair, Tens and Deuces)
+Josman Nunes collected 5812 from main pot
+netguy2015 collected 5811 from main pot
+*** SUMMARY ***
+Total pot 32850 Main pot 11623. Side pot 19420. | Rake 1807 
+Board [2d Tc 3h 9h 2h]
+Seat 1: FoulOutsC773 showed [3d Kc] and lost with two pair, Threes and Deuces
+Seat 2: netguy2015 (button) showed [Ts 6s] and won (5811) with two pair, Tens and Deuces
+Seat 3: Josman Nunes (small blind) showed [Td 6c] and won (25232) with two pair, Tens and Deuces
+Seat 4: splickaca (big blind) mucked [5d Ad]
+Seat 5: boobonita folded before Flop (didn't bet)
+Seat 6: hurrybote folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #206307706321:  Hold'em No Limit (50/100) - 2019/11/18 22:33:44 ET
+Table 'Nephthys IV' 6-max (Play Money) Seat #3 is the button
+Seat 1: FoulOutsC773 (17120 in chips) 
+Seat 2: netguy2015 (5811 in chips) 
+Seat 3: Josman Nunes (39897 in chips) 
+Seat 5: boobonita (65770 in chips) 
+Seat 6: hurrybote (9900 in chips) 
+boobonita: posts small blind 50
+hurrybote: posts big blind 100
+*** HOLE CARDS ***
+Dealt to hurrybote [3d Ac]
+FoulOutsC773: calls 100
+netguy2015: raises 5711 to 5811 and is all-in
+Josman Nunes: folds 
+boobonita: folds 
+hurrybote: folds 
+FoulOutsC773: calls 5711
+*** FLOP *** [5d Td 7d]
+*** TURN *** [5d Td 7d] [4h]
+*** RIVER *** [5d Td 7d 4h] [9s]
+*** SHOW DOWN ***
+FoulOutsC773: shows [Kd Qs] (high card King)
+netguy2015: shows [4d Jc] (a pair of Fours)
+netguy2015 collected 11125 from pot
+*** SUMMARY ***
+Total pot 11772 | Rake 647 
+Board [5d Td 7d 4h 9s]
+Seat 1: FoulOutsC773 showed [Kd Qs] and lost with high card King
+Seat 2: netguy2015 showed [4d Jc] and won (11125) with a pair of Fours
+Seat 3: Josman Nunes (button) folded before Flop (didn't bet)
+Seat 5: boobonita (small blind) folded before Flop
+Seat 6: hurrybote (big blind) folded before Flop
+
+
+
+PokerStars Hand #206307712174:  Hold'em No Limit (50/100) - 2019/11/18 22:34:11 ET
+Table 'Nephthys IV' 6-max (Play Money) Seat #5 is the button
+Seat 1: FoulOutsC773 (11309 in chips) 
+Seat 2: netguy2015 (11125 in chips) 
+Seat 3: Josman Nunes (39897 in chips) 
+Seat 4: splickaca (10000 in chips) 
+Seat 5: boobonita (65720 in chips) 
+Seat 6: hurrybote (9800 in chips) 
+hurrybote: posts small blind 50
+FoulOutsC773: posts big blind 100
+splickaca: posts small blind 50
+*** HOLE CARDS ***
+Dealt to hurrybote [5s 6h]
+netguy2015: raises 11025 to 11125 and is all-in
+Josman Nunes: calls 11125
+splickaca: folds 
+boobonita: folds 
+hurrybote: folds 
+FoulOutsC773: calls 11025
+*** FLOP *** [Th 9h 9s]
+boobonita leaves the table
+FoulOutsC773: checks 
+Josman Nunes: checks 
+*** TURN *** [Th 9h 9s] [Ac]
+FoulOutsC773: bets 184 and is all-in
+Josman Nunes: calls 184
+*** RIVER *** [Th 9h 9s Ac] [3s]
+*** SHOW DOWN ***
+FoulOutsC773: shows [9d Ad] (a full house, Nines full of Aces)
+Josman Nunes: shows [5c Kc] (a pair of Nines)
+FoulOutsC773 collected 348 from side pot
+netguy2015: shows [Qs 6s] (a pair of Nines)
+FoulOutsC773 collected 31634 from main pot
+*** SUMMARY ***
+Total pot 33843 Main pot 31634. Side pot 348. | Rake 1861 
+Board [Th 9h 9s Ac 3s]
+Seat 1: FoulOutsC773 (big blind) showed [9d Ad] and won (31982) with a full house, Nines full of Aces
+Seat 2: netguy2015 showed [Qs 6s] and lost with a pair of Nines
+Seat 3: Josman Nunes showed [5c Kc] and lost with a pair of Nines
+Seat 4: splickaca folded before Flop (didn't bet)
+Seat 5: boobonita (button) folded before Flop (didn't bet)
+Seat 6: hurrybote (small blind) folded before Flop
+
+
+
+PokerStars Hand #206307719447:  Hold'em No Limit (50/100) - 2019/11/18 22:34:44 ET
+Table 'Nephthys IV' 6-max (Play Money) Seat #6 is the button
+Seat 1: FoulOutsC773 (31982 in chips) 
+Seat 3: Josman Nunes (28588 in chips) 
+Seat 4: splickaca (9950 in chips) 
+Seat 6: hurrybote (9750 in chips) 
+PecosKid510 joins the table at seat #5 
+FoulOutsC773: posts small blind 50
+Josman Nunes: posts big blind 100
+*** HOLE CARDS ***
+Dealt to hurrybote [Qd 5d]
+splickaca: folds 
+hurrybote: calls 100
+FoulOutsC773: folds 
+Josman Nunes: checks 
+*** FLOP *** [9h 4d 4c]
+Josman Nunes: checks 
+PecosKid510 leaves the table
+hurrybote: checks 
+*** TURN *** [9h 4d 4c] [8h]
+Josman Nunes: checks 
+hurrybote: checks 
+*** RIVER *** [9h 4d 4c 8h] [Tc]
+Josman Nunes: checks 
+hurrybote: checks 
+prinsess517 joins the table at seat #5 
+*** SHOW DOWN ***
+Josman Nunes: shows [Ks 2h] (a pair of Fours)
+hurrybote: mucks hand 
+Josman Nunes collected 236 from pot
+*** SUMMARY ***
+Total pot 250 | Rake 14 
+Board [9h 4d 4c 8h Tc]
+Seat 1: FoulOutsC773 (small blind) folded before Flop
+Seat 3: Josman Nunes (big blind) showed [Ks 2h] and won (236) with a pair of Fours
+Seat 4: splickaca folded before Flop (didn't bet)
+Seat 6: hurrybote (button) mucked [Qd 5d]
+
+
+
+PokerStars Hand #206307726704:  Hold'em No Limit (50/100) - 2019/11/18 22:35:17 ET
+Table 'Nephthys IV' 6-max (Play Money) Seat #1 is the button
+Seat 1: FoulOutsC773 (31932 in chips) 
+Seat 3: Josman Nunes (28724 in chips) 
+Seat 4: splickaca (9950 in chips) 
+Seat 5: prinsess517 (6181 in chips) 
+Seat 6: hurrybote (9650 in chips) 
+Josman Nunes: posts small blind 50
+splickaca: posts big blind 100
+prinsess517: posts big blind 100
+*** HOLE CARDS ***
+Dealt to hurrybote [3h 2h]
+prinsess517: checks 
+hurrybote: folds 
+FoulOutsC773: calls 100
+Josman Nunes: calls 50
+splickaca: checks 
+*** FLOP *** [Jc 6c Qs]
+Josman Nunes: bets 400
+splickaca: calls 400
+prinsess517: folds 
+FoulOutsC773: folds 
+*** TURN *** [Jc 6c Qs] [Ad]
+Josman Nunes: checks 
+splickaca: checks 
+*** RIVER *** [Jc 6c Qs Ad] [8h]
+Josman Nunes: checks 
+splickaca: checks 
+*** SHOW DOWN ***
+Josman Nunes: shows [7c Qd] (a pair of Queens)
+splickaca: mucks hand 
+Josman Nunes collected 1134 from pot
+*** SUMMARY ***
+Total pot 1200 | Rake 66 
+Board [Jc 6c Qs Ad 8h]
+Seat 1: FoulOutsC773 (button) folded on the Flop
+Seat 3: Josman Nunes (small blind) showed [7c Qd] and won (1134) with a pair of Queens
+Seat 4: splickaca (big blind) mucked [9c 8d]
+Seat 5: prinsess517 folded on the Flop (didn't bet)
+Seat 6: hurrybote folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #206307733734:  Hold'em No Limit (50/100) - 2019/11/18 22:35:49 ET
+Table 'Nephthys IV' 6-max (Play Money) Seat #3 is the button
+Seat 1: FoulOutsC773 (31832 in chips) 
+Seat 2: netguy2015 (10000 in chips) 
+Seat 3: Josman Nunes (29358 in chips) 
+Seat 4: splickaca (9450 in chips) 
+Seat 5: prinsess517 (6081 in chips) 
+Seat 6: hurrybote (9650 in chips) 
+splickaca: posts small blind 50
+prinsess517: posts big blind 100
+netguy2015: posts small & big blinds 150
+*** HOLE CARDS ***
+Dealt to hurrybote [3h 9d]
+hurrybote: folds 
+FoulOutsC773: calls 100
+netguy2015: raises 9850 to 9950 and is all-in
+Josman Nunes: calls 9950
+splickaca: folds 
+prinsess517: calls 5981 and is all-in
+FoulOutsC773: folds 
+*** FLOP *** [Tc Kc 6s]
+*** TURN *** [Tc Kc 6s] [7d]
+*** RIVER *** [Tc Kc 6s 7d] [5c]
+*** SHOW DOWN ***
+netguy2015: shows [Qh Kd] (a pair of Kings)
+Josman Nunes: shows [Kh Js] (a pair of Kings - lower kicker)
+netguy2015 collected 7312 from side pot
+prinsess517: shows [3d 3s] (a pair of Threes)
+netguy2015 collected 17429 from main pot
+*** SUMMARY ***
+Total pot 26181 Main pot 17429. Side pot 7312. | Rake 1440 
+Board [Tc Kc 6s 7d 5c]
+Seat 1: FoulOutsC773 folded before Flop
+Seat 2: netguy2015 showed [Qh Kd] and won (24741) with a pair of Kings
+Seat 3: Josman Nunes (button) showed [Kh Js] and lost with a pair of Kings
+Seat 4: splickaca (small blind) folded before Flop
+Seat 5: prinsess517 (big blind) showed [3d 3s] and lost with a pair of Threes
+Seat 6: hurrybote folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #206307743098:  Hold'em No Limit (50/100) - 2019/11/18 22:36:21 ET
+Table 'Nephthys IV' 6-max (Play Money) Seat #4 is the button
+Seat 1: FoulOutsC773 (31732 in chips) 
+Seat 2: netguy2015 (24741 in chips) 
+Seat 3: Josman Nunes (19408 in chips) 
+Seat 4: splickaca (9400 in chips) 
+Seat 6: hurrybote (9650 in chips) 
+hurrybote: posts small blind 50
+FoulOutsC773: posts big blind 100
+*** HOLE CARDS ***
+Dealt to hurrybote [9d Ad]
+netguy2015: calls 100
+Josman Nunes: calls 100
+splickaca: calls 100
+hurrybote: calls 50
+FoulOutsC773: checks 
+*** FLOP *** [Js 6c 5d]
+hurrybote: checks 
+FoulOutsC773: checks 
+prinsess517 leaves the table
+netguy2015: checks 
+Josman Nunes: checks 
+splickaca: checks 
+*** TURN *** [Js 6c 5d] [9h]
+hurrybote: checks 
+FoulOutsC773: checks 
+netguy2015: checks 
+Josman Nunes: checks 
+splickaca: checks 
+*** RIVER *** [Js 6c 5d 9h] [Qs]
+hurrybote: checks 
+FoulOutsC773: checks 
+netguy2015: checks 
+Josman Nunes: bets 2000
+splickaca: folds 
+hurrybote: folds 
+FoulOutsC773: folds 
+netguy2015: folds 
+Uncalled bet (2000) returned to Josman Nunes
+Josman Nunes collected 472 from pot
+Josman Nunes: doesn't show hand 
+*** SUMMARY ***
+Total pot 500 | Rake 28 
+Board [Js 6c 5d 9h Qs]
+Seat 1: FoulOutsC773 (big blind) folded on the River
+Seat 2: netguy2015 folded on the River
+Seat 3: Josman Nunes collected (472)
+Seat 4: splickaca (button) folded on the River
+Seat 6: hurrybote (small blind) folded on the River
+
+
+
