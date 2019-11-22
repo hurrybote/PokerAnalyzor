@@ -1,9 +1,26 @@
 <mat-toolbar color="primary" class="header">
+  <mat-icon (click)="drawer.toggle()">filter_list</mat-icon>
   <span>{{ title }}</span>
 </mat-toolbar>
 
-<form>
-<input id="upfile" name="upfile", type="file" #fl accept="server/*" (change)="onchange(fl.files)" />
-</form>
+<mat-drawer-container class="drawer-container" [hasBackdrop]="true" (backdropClick)="drawer.close()">
+  <mat-drawer #drawer class="drawer" mode="over" position="start" (keydown.escape)="drawer.close()" disableClose>
+    <mat-nav-list>
+      <a mat-list-item [routerLink]="['/']" (click)="drawer.toggle()">Top</a>
+      <a mat-list-item [routerLink]="['/upload']" (click)="drawer.toggle()">Upload Log</a>
+      <a mat-list-item [routerLink]="['/analysis']" (click)="drawer.toggle()">Analysis</a>
+      <a mat-list-item [routerLink]="['/odds']" (click)="drawer.toggle()">Odds Simulation</a>
+    </mat-nav-list>
+  </mat-drawer>
 
-<router-outlet></router-outlet>
+  <mat-drawer-content>
+    <div id="dashboard">
+      <router-outlet></router-outlet>
+    </div>
+  </mat-drawer-content>
+
+
+
+</mat-drawer-container>
+
+

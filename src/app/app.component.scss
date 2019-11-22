@@ -1,0 +1,21 @@
+mat-drawer {
+    width: 30vw;
+}
+
+mat-drawer-content {
+    height: 94vh;
+}
+
+mat-drawer-container {
+    background-color: gray;
+}
+
+div#dashboard {
+    position: relative;
+    top: 5vh;
+    left: 5vw;
+    width: 90vw;
+    height: 90vh;
+    background-color: white;
+    border-radius: 10px;
+}

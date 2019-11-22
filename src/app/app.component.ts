@@ -1,6 +1,6 @@
-import { Component } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
+import { Component, ViewChild } from '@angular/core';
 import { literal } from '@angular/compiler/src/output/output_ast';
+import { MatSidenav } from '@angular/material';
 
 @Component({
   selector: 'app-root',
@@ -9,18 +9,8 @@ import { literal } from '@angular/compiler/src/output/output_ast';
 })
 export class AppComponent {
   title = 'PokerAnalyzor';
-  name = '';
-  result = '';
 
-  constructor(private http: HttpClient){}
+  constructor(){}
 
-  onchange(list: any){
-    if(list.length <= 0){return;}
-
-    let f = list[0];
-    let data = new FormData();
-    data.append('upfile', f, f.name);
-
-    
-  }
+  
 }
