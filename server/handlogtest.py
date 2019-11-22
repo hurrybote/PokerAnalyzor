@@ -1,15 +1,16 @@
+import re
 
 ## ログの整形とDBへの格納
 def formating_log():
     # フロントからアップロードされたファイルの名前を加工
-    filename = "HH20191119 Budrosa IV - 50-100 - プレイマネー ノーリミット ホールデム.txt"
+    filename = "HH20191118 Nephthys IV - 50-100 - プレイマネー ノーリミット ホールデム.txt"
     filename_date, filename_table, filename_num, filename_blind = split_filename(filename)
     # print(filename_date, filename_table, filename_num, filename_blind)
 
-    with open("../../../poker/handlog/hurrybote/{}".format(filename), "r") as f:
+    with open("handlog/{}".format(filename), "r", encoding="utf-8") as f:
         handlog_lines = f.readlines()
-        handlogs = sep_handlog()
-        print(handlog_lines[0])
+        handlogs = sep_handlog(handlog_lines)
+        print(handlogs[0])
 
 
 def split_filename(filename):
@@ -18,10 +19,49 @@ def split_filename(filename):
 
 
 def sep_handlog(handlog_lines):
+    tmp = []
+    handlogs = []
     for log in handlog_lines:
-        if(bool(re.match(r'#\d{10,16}', log))):
+        log = log.replace("\n", "")
+        log = log.replace("\ufeff", "")
+        if(log == ''):
+            continue
 
-    return
+        if(bool(re.search(r'#[0-9]{10,16}', log)) and len(tmp)>0):
+            handlogs.append(tmp)
+            tmp = []
+        tmp.append(log)
+    handlogs.append(tmp)
+    return handlogs
+
+class game():
+    def __init__(self, handlogs):
+        pass
+    
+    def pick_seatinfo():
+        pass
+
+    def pick_tableinfo():
+        pass
+
+    def pick_flopinfo():
+        pass
+
+    def pick_turninfo():
+        pass
+
+    def pick_riverinfo():
+        pass
+
+    def pick_showdowninfo():
+        pass
+
+
+class player():
+    def __init__(self, ):
+        pass
+    
+
 
 
 if __name__ == '__main__':
