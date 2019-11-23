@@ -1,0 +1,205 @@
+﻿PokerStars Hand #206312539427:  Hold'em No Limit (50/100) - 2019/11/19 5:24:41 ET
+Table 'Budrosa IV' 6-max (Play Money) Seat #6 is the button
+Seat 1: 1MonteKristo1 (10025 in chips) 
+Seat 3: agas1972 (35756 in chips) 
+Seat 5: hurrybote (4000 in chips) 
+Seat 6: mcrider186 (10033 in chips) 
+1MonteKristo1: posts small blind 50
+agas1972: posts big blind 100
+hurrybote: posts big blind 100
+*** HOLE CARDS ***
+Dealt to hurrybote [5d 5s]
+hurrybote: checks 
+mcrider186: calls 100
+1MonteKristo1: calls 50
+agas1972: checks 
+*** FLOP *** [Ah Qc 5c]
+1MonteKristo1: checks 
+agas1972: checks 
+hurrybote: bets 1000
+mcrider186: folds 
+1MonteKristo1: folds 
+agas1972: folds 
+Uncalled bet (1000) returned to hurrybote
+hurrybote collected 378 from pot
+Door 050 09 was removed from the table for failing to post
+Door 050 09 leaves the table
+hurrybote: doesn't show hand 
+*** SUMMARY ***
+Total pot 400 | Rake 22 
+Board [Ah Qc 5c]
+Seat 1: 1MonteKristo1 (small blind) folded on the Flop
+Seat 3: agas1972 (big blind) folded on the Flop
+Seat 5: hurrybote collected (378)
+Seat 6: mcrider186 (button) folded on the Flop
+
+
+
+PokerStars Hand #206312546310:  Hold'em No Limit (50/100) - 2019/11/19 5:25:09 ET
+Table 'Budrosa IV' 6-max (Play Money) Seat #1 is the button
+Seat 1: 1MonteKristo1 (9925 in chips) 
+Seat 3: agas1972 (35656 in chips) 
+Seat 4: mikbongio (8450 in chips) 
+Seat 5: hurrybote (4278 in chips) 
+Seat 6: mcrider186 (9933 in chips) 
+agas1972: posts small blind 50
+mikbongio: posts big blind 100
+*** HOLE CARDS ***
+Dealt to hurrybote [Ac 2c]
+hurrybote: calls 100
+mcrider186: calls 100
+1MonteKristo1: calls 100
+agas1972: calls 50
+mikbongio: raises 100 to 200
+hurrybote: calls 100
+mcrider186: calls 100
+1MonteKristo1: calls 100
+agas1972: calls 100
+*** FLOP *** [5h Kd 8s]
+agas1972: checks 
+mikbongio: bets 100
+hurrybote: calls 100
+mcrider186: calls 100
+JuCaMiraLino joins the table at seat #2 
+1MonteKristo1: calls 100
+agas1972: calls 100
+*** TURN *** [5h Kd 8s] [Ts]
+agas1972: checks 
+mikbongio: bets 2100
+hurrybote: folds 
+mcrider186: calls 2100
+1MonteKristo1: calls 2100
+agas1972: calls 2100
+*** RIVER *** [5h Kd 8s Ts] [2h]
+agas1972: checks 
+mikbongio: checks 
+mcrider186: checks 
+1MonteKristo1 has timed out
+1MonteKristo1: checks 
+*** SHOW DOWN ***
+agas1972: shows [7d 6s] (high card King)
+mikbongio: shows [3d Kh] (a pair of Kings)
+mcrider186: shows [8d Th] (two pair, Tens and Eights)
+1MonteKristo1: mucks hand 
+mcrider186 collected 9355 from pot
+*** SUMMARY ***
+Total pot 9900 | Rake 545 
+Board [5h Kd 8s Ts 2h]
+Seat 1: 1MonteKristo1 (button) mucked [Ks 7h]
+Seat 3: agas1972 (small blind) showed [7d 6s] and lost with high card King
+Seat 4: mikbongio (big blind) showed [3d Kh] and lost with a pair of Kings
+Seat 5: hurrybote folded on the Turn
+Seat 6: mcrider186 showed [8d Th] and won (9355) with two pair, Tens and Eights
+
+
+
+PokerStars Hand #206312567164:  Hold'em No Limit (50/100) - 2019/11/19 5:26:31 ET
+Table 'Budrosa IV' 6-max (Play Money) Seat #3 is the button
+Seat 1: 1MonteKristo1 (7525 in chips) 
+Seat 2: JuCaMiraLino (10000 in chips) 
+Seat 3: agas1972 (33256 in chips) 
+Seat 4: mikbongio (6050 in chips) 
+Seat 5: hurrybote (3978 in chips) 
+Seat 6: mcrider186 (16888 in chips) 
+mikbongio: posts small blind 50
+hurrybote: posts big blind 100
+JuCaMiraLino: posts big blind 100
+*** HOLE CARDS ***
+Dealt to hurrybote [2s Kd]
+mcrider186: calls 100
+1MonteKristo1: calls 100
+JuCaMiraLino: checks 
+agas1972: raises 33156 to 33256 and is all-in
+mikbongio: folds 
+hurrybote: folds 
+mcrider186: folds 
+1MonteKristo1: folds 
+JuCaMiraLino: folds 
+Uncalled bet (33156) returned to agas1972
+agas1972 collected 550 from pot
+agas1972: doesn't show hand 
+*** SUMMARY ***
+Total pot 550 | Rake 0 
+Seat 1: 1MonteKristo1 folded before Flop
+Seat 2: JuCaMiraLino folded before Flop (didn't bet)
+Seat 3: agas1972 (button) collected (550)
+Seat 4: mikbongio (small blind) folded before Flop
+Seat 5: hurrybote (big blind) folded before Flop
+Seat 6: mcrider186 folded before Flop
+
+
+
+PokerStars Hand #206312573034:  Hold'em No Limit (50/100) - 2019/11/19 5:26:54 ET
+Table 'Budrosa IV' 6-max (Play Money) Seat #4 is the button
+Seat 1: 1MonteKristo1 (7425 in chips) 
+Seat 2: JuCaMiraLino (9900 in chips) 
+Seat 3: agas1972 (33706 in chips) 
+Seat 4: mikbongio (6000 in chips) 
+Seat 5: hurrybote (3878 in chips) 
+Seat 6: mcrider186 (16788 in chips) 
+hurrybote: posts small blind 50
+mcrider186: posts big blind 100
+*** HOLE CARDS ***
+Dealt to hurrybote [Ac 3d]
+1MonteKristo1: folds 
+1MonteKristo1 leaves the table
+JuCaMiraLino: folds 
+agas1972: raises 33606 to 33706 and is all-in
+mikbongio: calls 6000 and is all-in
+BurchettLady joins the table at seat #1 
+hurrybote: folds 
+mcrider186: folds 
+Uncalled bet (27706) returned to agas1972
+*** FLOP *** [Td 7s 3c]
+*** TURN *** [Td 7s 3c] [4c]
+*** RIVER *** [Td 7s 3c 4c] [Js]
+*** SHOW DOWN ***
+agas1972: shows [7d Kd] (a pair of Sevens)
+mikbongio: shows [Jc Jh] (three of a kind, Jacks)
+mikbongio collected 11482 from pot
+*** SUMMARY ***
+Total pot 12150 | Rake 668 
+Board [Td 7s 3c 4c Js]
+Seat 1: 1MonteKristo1 folded before Flop (didn't bet)
+Seat 2: JuCaMiraLino folded before Flop (didn't bet)
+Seat 3: agas1972 showed [7d Kd] and lost with a pair of Sevens
+Seat 4: mikbongio (button) showed [Jc Jh] and won (11482) with three of a kind, Jacks
+Seat 5: hurrybote (small blind) folded before Flop
+Seat 6: mcrider186 (big blind) folded before Flop
+
+
+
+PokerStars Hand #206312579821:  Hold'em No Limit (50/100) - 2019/11/19 5:27:21 ET
+Table 'Budrosa IV' 6-max (Play Money) Seat #5 is the button
+Seat 1: BurchettLady (10000 in chips) 
+Seat 2: JuCaMiraLino (9900 in chips) 
+Seat 3: agas1972 (27706 in chips) 
+Seat 4: mikbongio (11482 in chips) 
+Seat 5: hurrybote (3828 in chips) 
+Seat 6: mcrider186 (16688 in chips) 
+mcrider186: posts small blind 50
+BurchettLady: posts big blind 100
+*** HOLE CARDS ***
+Dealt to hurrybote [8s Tc]
+JuCaMiraLino: calls 100
+agas1972: raises 27606 to 27706 and is all-in
+mikbongio: folds 
+hurrybote: folds 
+mcrider186: folds 
+BurchettLady: folds 
+JuCaMiraLino: folds 
+Uncalled bet (27606) returned to agas1972
+JuCaMiraLino leaves the table
+agas1972 collected 350 from pot
+agas1972: doesn't show hand 
+*** SUMMARY ***
+Total pot 350 | Rake 0 
+Seat 1: BurchettLady (big blind) folded before Flop
+Seat 2: JuCaMiraLino folded before Flop
+Seat 3: agas1972 collected (350)
+Seat 4: mikbongio folded before Flop (didn't bet)
+Seat 5: hurrybote (button) folded before Flop (didn't bet)
+Seat 6: mcrider186 (small blind) folded before Flop
+
+
+

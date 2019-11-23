@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
+import { UploadService } from './upload.service';
+
 
 @Component({
   selector: 'app-upload',
@@ -7,10 +9,8 @@ import { HttpClient } from '@angular/common/http';
   styleUrls: ['./upload.component.scss']
 })
 export class UploadComponent implements OnInit {
-  name = '';
-  result = '';
 
-  constructor(private http: HttpClient) { }
+  constructor(private upload: UploadService) { }
   // constructor() { }
   ngOnInit() {
   }
@@ -23,9 +23,11 @@ export class UploadComponent implements OnInit {
     let handlog_data = new FormData();
     handlog_data.append('upfile', f, f.name);
 
-    console.log(handlog_data);
+    // console.log(handlog_data.get('upfile'));
 
-    
+    this.upload.post_txt(f.name, handlog_data)
+
+    // 読み込み後にanalysis画面へ飛ぶ
   }
 
 }
