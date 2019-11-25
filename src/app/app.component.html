@@ -4,7 +4,7 @@
 </mat-toolbar>
 
 <mat-drawer-container class="drawer-container" [hasBackdrop]="true" (backdropClick)="drawer.close()">
-  <mat-drawer #drawer class="drawer" mode="over" position="start" (keydown.escape)="drawer.close()" disableClose>
+  <mat-drawer #drawer class="drawer" mode="push" position="start" (keydown.escape)="drawer.close()" disableClose>
     <mat-nav-list>
       <a mat-list-item [routerLink]="['/']" (click)="drawer.toggle()">Top</a>
       <a mat-list-item [routerLink]="['/upload']" (click)="drawer.toggle()">Upload Log</a>

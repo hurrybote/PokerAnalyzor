@@ -1,5 +1,4 @@
-import { Component, OnInit } from '@angular/core';
-import { HttpClient, HttpHeaders } from '@angular/common/http';
+import { Component, OnInit, ViewChild } from '@angular/core';
 import { UploadService } from './upload.service';
 
 
@@ -9,23 +8,33 @@ import { UploadService } from './upload.service';
   styleUrls: ['./upload.component.scss']
 })
 export class UploadComponent implements OnInit {
+  @ViewChild('fileInput', {static:false}) fileInput;
+
+  file: File | null = null;
 
   constructor(private upload: UploadService) { }
   // constructor() { }
   ngOnInit() {
   }
 
-  onchange(list: any){
-    if(list.length <= 0){return;}
+  onClickFileInputButton(): void{
+    this.fileInput.nativeElement.click();
+  }
 
-    let f = list[0];
-    console.log(f);
+  onChangeFileInput(){
+    // const files: {[key: string]: File } = this.fileInput.nativeElement.files;
+    const files = this.fileInput.nativeElement.files;
+    console.log(files);
+    if(files.length <= 0){return;}
+
+    let file = files[0];
+    console.log(file);
     let handlog_data = new FormData();
-    handlog_data.append('upfile', f, f.name);
+    handlog_data.append('upfile', file, file.name);
 
     // console.log(handlog_data.get('upfile'));
 
-    this.upload.post_txt(f.name, handlog_data)
+    this.upload.post_txt(file.name, handlog_data)
 
     // 読み込み後にanalysis画面へ飛ぶ
   }

@@ -1,3 +1,6 @@
 <div id="dashboard">
-<p>odds-simulation works!</p>
+    <mat-grid-list style="left:20vw;top:20vh;width:360px" cols="13" rowHeight="20px">
+        <mat-grid-tile *ngFor="let hand of hand_pair" id="hand.name">{{ hand.name }}</mat-grid-tile>
+    </mat-grid-list>
+    <mat-slider style="left:20vw;top:20vh;width:360px" thumbLabel tickInterval="1" min="1" max="100" [displayWith]="formatLabel"></mat-slider>
 </div>
