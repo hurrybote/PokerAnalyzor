@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { HAND_PAIR, HandPair } from './hand-pair';
+import { HandPair, HAND_PAIR } from './hand-pair';
+import { OddsSimulationService } from './odds-simulation.service';
 
 @Component({
   selector: 'app-odds-simulation',
@@ -9,20 +10,17 @@ import { HAND_PAIR, HandPair } from './hand-pair';
 
 export class OddsSimulationComponent implements OnInit {
   public hand_pair: HandPair[] = HAND_PAIR;
-  
-  constructor() { }
+
+  constructor(
+    public OddsService: OddsSimulationService
+  ) {  }
 
   formatLabel(value: number) {
-    console.log(this.hand_pair);
-    console.log(HAND_PAIR);
-    for(let i=0; i <= Object.keys(this.hand_pair).length; i++){
-      if (this.hand_pair[i]["p1"] >= 100-value) {
-        this.hand_pair[i]["p1"] = 1;
-      }else{
-        this.hand_pair[i]["p1"] = 0;
-      }
-    }
     return value + '%';
+  }
+
+  change_color(slider){
+    this.hand_pair = this.OddsService.change_color_num(slider.value, this.hand_pair);
   }
 
   ngOnInit() {

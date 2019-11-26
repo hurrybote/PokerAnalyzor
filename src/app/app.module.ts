@@ -19,7 +19,6 @@ import { TopComponent } from './top/top.component';
 import { PageNotFoundComponent } from './error/page-not-found/page-not-found.component';
 import { HttpClientModule } from '@angular/common/http';
 import { OddsSimulationComponent } from './odds-simulation/odds-simulation.component';
-import { HeatMapModule } from '@syncfusion/ej2-angular-heatmap';
 
 
 @NgModule({
@@ -42,7 +41,6 @@ import { HeatMapModule } from '@syncfusion/ej2-angular-heatmap';
     MatIconModule,
     HttpClientModule,
     FormsModule,
-    HeatMapModule,
     MatGridListModule,
     MatSliderModule
   ],
