@@ -1,22 +1,21 @@
-import { Component, OnInit, ViewEncapsulation } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { HAND_PAIR, HandPair } from './hand-pair';
 
 @Component({
   selector: 'app-odds-simulation',
   templateUrl: './odds-simulation.component.html',
-  styleUrls: ['./odds-simulation.component.scss'],
-  encapsulation: ViewEncapsulation.None
+  styleUrls: ['./odds-simulation.component.scss']
 })
-export class OddsSimulationComponent implements OnInit {
-  private hand_pair: HandPair[] = HAND_PAIR;
 
+export class OddsSimulationComponent implements OnInit {
+  public hand_pair: HandPair[] = HAND_PAIR;
+  
   constructor() { }
 
-  ngOnInit() {
-  }
-
   formatLabel(value: number) {
-    for(let i=0; i <= this.hand_pair.length; i++){
+    console.log(this.hand_pair);
+    console.log(HAND_PAIR);
+    for(let i=0; i <= Object.keys(this.hand_pair).length; i++){
       if (this.hand_pair[i]["p1"] >= 100-value) {
         this.hand_pair[i]["p1"] = 1;
       }else{
@@ -25,6 +24,11 @@ export class OddsSimulationComponent implements OnInit {
     }
     return value + '%';
   }
+
+  ngOnInit() {
+  }
+
+  
 
 
   

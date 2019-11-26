@@ -1,16 +1,12 @@
 // p1の時の値が高いものから%が上がるごとに表示できるようにする
 
-export const card_list = [
-  "A", "K", "Q", "J", "T", "9", "8", "7", "6", "5", "4", "3", "2"
-];
-
 export class HandPair {
   name: string;
   color: number;
   p1: number;
 }
 
-export const HAND_PAIR: HandPair[] = [
+export var HAND_PAIR: HandPair[] = [
     {name: "AA", color:0, p1:85.3},
     {name: "AKs", color:0, p1:85.3},
     {name: "AQs", color:0, p1:85.3},
