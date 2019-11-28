@@ -1,6 +1,52 @@
 <div id="dashboard">
-    <mat-grid-list style="left:20vw;top:20vh;width:360px" cols="13" rowHeight="20px">
-        <mat-grid-tile [style.background-color]="hand.color? 'greenyellow':'skyblue'" *ngFor="let hand of hand_pair" id="hand.name">{{ hand.name }}</mat-grid-tile>
-    </mat-grid-list>
-    <mat-slider style="left:20vw;top:20vh;width:360px" thumbLabel tickInterval="1" min="0" max="100" [displayWith]="formatLabel" (input)="change_color($event)"></mat-slider>
+    
+    <img id="poker_table" src="assets/poker_table.png">
+
+    <div class="btn-group mr-3">
+        <div class="btn-group" ngbDropdown role="group" aria-label="Button group with nested dropdown">
+            <button class="btn btn-outline-primary" ngbDropdownToggle>select player num</button>
+            <div class="dropdown-menu" ngbDropdownMenu>
+                <button ngbDropdownItem *ngFor="let pl of plnum" value="pl" (click)="select_player_num(pl)">{{ pl }}</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="players">
+        <div *ngFor="let pl of players" id="{{pl.id}}" (click)="onClickPop($event)">
+            <img id="{{add1(pl.id)}}" src="{{pl.src}}">
+            <img id="{{add2(pl.id)}}" src="{{pl.src}}">
+        </div>
+    </div>
+
+    <ng-template #trumpContent let-modal>
+        <div class="modal-header">
+            <h4>Select Hands</h4>
+            <button type="button" class="close" aria-label="Close" (click)="modal.close('Cross click')">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+            <ngb-tabset>
+                <ngb-tab title="Hands">
+                    <ng-template ngbTabContent>
+                        <p>hogehogehogehogehogehoge</p>
+                    </ng-template>
+                </ngb-tab>
+                <ngb-tab title="Range">
+                    <ng-template ngbTabContent>
+                        <div id="pick_hand" style="width: 400px; height:400px;background-color: white">
+                            <mat-grid-list style="width:360px" cols="13" rowHeight="20px">
+                                <mat-grid-tile [style.background-color]="hand.color? 'greenyellow':'skyblue'" *ngFor="let hand of hand_pair" id="hand.name">{{ hand.name }}</mat-grid-tile>
+                            </mat-grid-list>
+                            <mat-slider style="width:360px" thumbLabel tickInterval="1" min="0" max="100" [displayWith]="formatLabel" (input)="change_color($event)"></mat-slider>    
+                        </div>
+                    </ng-template>
+                </ngb-tab>
+            </ngb-tabset>
+        </div>
+    </ng-template>
+
+    <!-- display:noneにしてimgタグをクリックして呼び出すようにする -->
+    <button #pop type="button" style="display:none" (click)="open_modal(trumpContent)">test</button>
+    
 </div>

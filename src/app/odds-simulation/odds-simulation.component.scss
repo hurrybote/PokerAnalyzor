@@ -1,3 +1,181 @@
-range-heatmap {
-    display: block;
+
+img#poker_table{
+    position: absolute;
+    // top: 8vh;
+    // left: 9vw;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    // translate: translate(-50%, -50%);
+    margin: auto;
+    width: 80vw;
+    height: 70vh;
 }
+
+// div#pick_hand{
+//     padding: 0.5em 1em;
+//     margin: 2em 0;
+//     color: #5d627b;
+//     background: white;
+//     border-top: solid 5px #5d627b;
+//     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+// }
+
+img#ply1-1{
+    position:absolute;
+    width:5%;
+    height:auto;
+    top:70vh;
+    left:42vw;
+}
+
+img#ply1-2{
+    position:absolute;
+    width:5%;
+    height:auto;
+    top:70vh;
+    left:47vw;
+}
+
+
+img#ply2-1{
+    position:absolute;
+    width:5%;
+    height:auto;
+    top:70vh;
+    left:20vw;
+}
+
+img#ply2-2{
+    position:absolute;
+    width:5%;
+    height:auto;
+    top:70vh;
+    left:25vw;
+}
+
+img#ply3-1{
+    position:absolute;
+    width:5%;
+    height:auto;
+    top:50vh;
+    left:5vw;
+}
+
+img#ply3-2{
+    position:absolute;
+    width:5%;
+    height:auto;
+    top:50vh;
+    left:10vw;
+}
+
+img#ply4-1{
+    position:absolute;
+    width:5%;
+    height:auto;
+    top:20vh;
+    left:5vw;
+}
+
+img#ply4-2{
+    position:absolute;
+    width:5%;
+    height:auto;
+    top:20vh;
+    left:10vw;
+}
+
+img#ply5-1{
+    position:absolute;
+    width:5%;
+    height:auto;
+    top:5vh;
+    left:30vw;
+}
+
+img#ply5-2{
+    position:absolute;
+    width:5%;
+    height:auto;
+    top:5vh;
+    left:35vw;
+}
+
+img#ply6-1{
+    position:absolute;
+    width:5%;
+    height:auto;
+    top:5vh;
+    left:55vw;
+}
+
+img#ply6-2{
+    position:absolute;
+    width:5%;
+    height:auto;
+    top:5vh;
+    left:60vw;
+}
+
+img#ply7-1{
+    position:absolute;
+    width:5%;
+    height:auto;
+    top:20vh;
+    left:80vw;
+}
+
+img#ply7-2{
+    position:absolute;
+    width:5%;
+    height:auto;
+    top:20vh;
+    left:85vw;
+}
+
+img#ply8-1{
+    position:absolute;
+    width:5%;
+    height:auto;
+    top:50vh;
+    left:80vw;
+}
+
+img#ply8-2{
+    position:absolute;
+    width:5%;
+    height:auto;
+    top:50vh;
+    left:85vw;
+}
+
+img#ply9-1{
+    position:absolute;
+    width:5%;
+    height:auto;
+    top:70vh;
+    left:65vw;
+}
+
+img#ply9-2{
+    position:absolute;
+    width:5%;
+    height:auto;
+    top:70vh;
+    left:70vw;
+}
+
+div#pick_hand {
+    position: relative;
+    top: 20px;
+    left: 35px;
+}
+
+// mat-grid-list mat-slider{
+//     position: relative;
+//     top: 10%;
+//     left: 30%;
+//     margin: auto;
+// }

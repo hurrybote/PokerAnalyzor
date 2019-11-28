@@ -13,8 +13,8 @@ export class OddsSimulationService {
   public change_color_num(value, hand_pair): HandPair[]{
     // console.log(value);
     // console.log(hand_pair);
-    console.log(this.max_ratio);
-    console.log(this.min_ratio);
+    // console.log(this.max_ratio);
+    // console.log(this.min_ratio);
     let new_value = this.map(value, 0, 100, this.max_ratio+1, this.min_ratio)
     for(let i=0; i <= hand_pair.length; i++){
       if (hand_pair[i]["p1"] >= new_value) {
@@ -28,7 +28,7 @@ export class OddsSimulationService {
 
   get_max(): number{
     let temp = 0;
-    console.log(HAND_PAIR);
+    // console.log(HAND_PAIR);
     for (let hand in HAND_PAIR){
       if(temp < HAND_PAIR[hand]["p1"]){
         temp = HAND_PAIR[hand]["p1"]

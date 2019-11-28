@@ -12,6 +12,7 @@ import { MatListModule } from '@angular/material/list';
 import { MatIconModule } from '@angular/material/icon';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatSliderModule } from '@angular/material/slider';
+import { MatTabsModule } from '@angular/material/tabs';
 
 import { UploadComponent } from './upload/upload.component';
 import { AnalysisComponent } from './analysis/analysis.component';
@@ -19,7 +20,7 @@ import { TopComponent } from './top/top.component';
 import { PageNotFoundComponent } from './error/page-not-found/page-not-found.component';
 import { HttpClientModule } from '@angular/common/http';
 import { OddsSimulationComponent } from './odds-simulation/odds-simulation.component';
-
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -42,7 +43,9 @@ import { OddsSimulationComponent } from './odds-simulation/odds-simulation.compo
     HttpClientModule,
     FormsModule,
     MatGridListModule,
-    MatSliderModule
+    MatSliderModule,
+    NgbModule,
+    MatTabsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
