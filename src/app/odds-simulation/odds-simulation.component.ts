@@ -41,10 +41,9 @@ export class OddsSimulationComponent implements OnInit {
   }
 
   select_player_num(value){
-    console.log(this.players);
-    this.players = PLAYERS;
-    console.log(this.players);
-    for(let i=9; value < this.players.length; i--) this.players.pop();
+    this.players = this.OddsService.delete_ply(PLAYERS, value);
+    // console.log(this.players);
+    console.log(this.players.length); 
   }
 
   add1(id){

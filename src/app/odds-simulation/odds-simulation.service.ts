@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HAND_PAIR, HandPair } from './hand-pair';
+import { Players } from './players';
 
 @Injectable({
   providedIn: 'root'
@@ -65,5 +66,13 @@ export class OddsSimulationService {
 
   get_pair(): HandPair[]{
     return HAND_PAIR;
+  }
+
+  delete_ply(players, value){
+    let temp: Players[] = [];
+    for(let i=0; i < value; i++){
+      temp.push(players[i])
+    }
+    return temp;
   }
 }
