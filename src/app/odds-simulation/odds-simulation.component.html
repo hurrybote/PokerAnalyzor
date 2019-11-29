@@ -12,9 +12,9 @@
     </div>
 
     <div id="players">
-        <div *ngFor="let pl of players" id="{{pl.id}}" (click)="onClickPop($event)">
-            <img id="{{add1(pl.id)}}" src="{{pl.src}}">
-            <img id="{{add2(pl.id)}}" src="{{pl.src}}">
+        <div *ngFor="let pl of players" id="{{pl.id}}" (click)="onClickPop(pl)">
+            <img id="{{pl.id}}" style="width:80px;height:auto;" src="{{pl.left_src}}">
+            <img id="{{pl.id}}" style="width:80px;height:auto;" src="{{pl.right_src}}">
         </div>
     </div>
 
@@ -29,16 +29,23 @@
             <ngb-tabset>
                 <ngb-tab title="Hands">
                     <ng-template ngbTabContent>
-                        <p>hogehogehogehogehogehoge</p>
+                        <div style="height:30vh">
+                            <mat-grid-list style="top:30px;" cols="13" rowHeight="40px">
+                                <mat-grid-tile style="width:35px" *ngFor="let card of cardList">
+                                    <img [class.selected]="card===selectedCard" style="width:15px;height:30px" src="{{ card.src }}" (click)="onClickCardImg(card)">
+                                </mat-grid-tile>
+                            </mat-grid-list>
+                        </div>
                     </ng-template>
                 </ngb-tab>
                 <ngb-tab title="Range">
                     <ng-template ngbTabContent>
-                        <div id="pick_hand" style="width: 400px; height:400px;background-color: white">
-                            <mat-grid-list style="width:360px" cols="13" rowHeight="20px">
+                        <div id="pick_hand" style="width: 400px; height:360px;background-color: white">
+                            <p>作成中</p>
+                            <!-- <mat-grid-list style="width:360px" cols="13" rowHeight="20px">
                                 <mat-grid-tile [style.background-color]="hand.color? 'greenyellow':'skyblue'" *ngFor="let hand of hand_pair" id="hand.name">{{ hand.name }}</mat-grid-tile>
                             </mat-grid-list>
-                            <mat-slider style="width:360px" thumbLabel tickInterval="1" min="0" max="100" [displayWith]="formatLabel" (input)="change_color($event)"></mat-slider>    
+                            <mat-slider style="width:360px" thumbLabel tickInterval="1" min="0" max="100" [displayWith]="formatLabel" (input)="change_color($event)"></mat-slider>     -->
                         </div>
                     </ng-template>
                 </ngb-tab>

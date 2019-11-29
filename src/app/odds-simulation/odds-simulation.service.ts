@@ -12,10 +12,7 @@ export class OddsSimulationService {
   constructor() { }
 
   public change_color_num(value, hand_pair): HandPair[]{
-    // console.log(value);
     // console.log(hand_pair);
-    // console.log(this.max_ratio);
-    // console.log(this.min_ratio);
     let new_value = this.map(value, 0, 100, this.max_ratio+1, this.min_ratio)
     for(let i=0; i <= hand_pair.length; i++){
       if (hand_pair[i]["p1"] >= new_value) {
@@ -74,5 +71,22 @@ export class OddsSimulationService {
       temp.push(players[i])
     }
     return temp;
+  }
+
+  change_src_for_img(players, src, selectedPlayer){
+    src = src.replace("small_trump", "trump");
+    console.log(src);
+    for(let i=0; i<players.length; i++){
+      if(selectedPlayer.id === players[i].id && (players[i].left_src != src && src != players[i].right_src)){
+        if(players[i].pic_flag === 0){
+          players[i].left_src = src;
+          players[i].pic_flag = 1;
+        }else{
+          players[i].right_src = src;
+          players[i].pic_flag = 0;
+        }
+      }
+    }
+    return players;
   }
 }

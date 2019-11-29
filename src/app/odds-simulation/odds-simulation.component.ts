@@ -3,6 +3,7 @@ import { HandPair, HAND_PAIR } from './hand-pair';
 import { OddsSimulationService } from './odds-simulation.service';
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 import { Players, PLAYERS } from './players';
+import { SmallCard, SMALL_CARD } from './card';
 
 @Component({
   selector: 'app-odds-simulation',
@@ -15,6 +16,11 @@ export class OddsSimulationComponent implements OnInit {
   public hand_pair: HandPair[] = HAND_PAIR;
   public plnum: number[] = [1, 2, 3, 4, 5, 6, 7, 8, 9];
   public players: Players[] = [PLAYERS[0]];
+  public dirList: string[] = new Array();
+  public cardList: SmallCard[] = SMALL_CARD;
+
+  public selectedPlayer: Players;
+  public selectedCard: SmallCard;
 
   constructor(
     public OddsService: OddsSimulationService,
@@ -30,8 +36,9 @@ export class OddsSimulationComponent implements OnInit {
     this.hand_pair = this.OddsService.change_color_num(slider.value, this.hand_pair);
   }
 
-  onClickPop(event){
-    console.log(event)
+  onClickPop(pl){
+    this.selectedPlayer = pl;
+    console.log(this.selectedPlayer);
     this.pop.nativeElement.click();
   }
 
@@ -46,17 +53,10 @@ export class OddsSimulationComponent implements OnInit {
     console.log(this.players.length); 
   }
 
-  add1(id){
-    return id+"-1";
-  }
-
-  add2(id){
-    return id+"-2";
-  }
-
-  // 選択されたトランプを保存して，画面に表示する
-  pick_hand(){
-
+  onClickCardImg(card){
+    this.selectedCard = card;
+    this.players = this.OddsService.change_src_for_img(this.players, card.src, this.selectedPlayer);
+    console.log(card);
   }
 
   ngOnInit() {
