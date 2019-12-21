@@ -12,9 +12,9 @@
     </div>
 
     <div id="players">
-        <div *ngFor="let pl of players" id="{{pl.id}}" (click)="onClickPop(pl)">
-            <img id="{{pl.id}}" style="width:80px;height:auto;" src="{{pl.left_src}}">
-            <img id="{{pl.id}}" style="width:80px;height:auto;" src="{{pl.right_src}}">
+        <div *ngFor="let pl of players" id="{{pl.name}}" (click)="onClickPop(pl)">
+            <img id="{{pl.name}}" style="width:80px;height:auto;" src="{{pl.left_src}}">
+            <img id="{{pl.name}}" style="width:80px;height:auto;" src="{{pl.right_src}}">
         </div>
     </div>
 
@@ -32,7 +32,7 @@
                         <div style="height:30vh">
                             <mat-grid-list style="top:30px;" cols="13" rowHeight="40px">
                                 <mat-grid-tile style="width:35px" *ngFor="let card of cardList">
-                                    <img [class.selected]="card===selectedCard" style="width:15px;height:30px" src="{{ card.src }}" (click)="onClickCardImg(card)">
+                                    <img [class.selected]="card.display===1" style="width:15px;height:30px;" src="{{ card.src }}" (click)="onClickCardImg(card)">
                                 </mat-grid-tile>
                             </mat-grid-list>
                         </div>

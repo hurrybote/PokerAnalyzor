@@ -1,0 +1,1561 @@
+﻿PokerStars Hand #206624637656: Tournament #2742423452, 8700+1300 Hold'em No Limit - Level III (25/50) - 2019/11/28 22:15:50 ET
+Table '2742423452 17' 9-max Seat #3 is the button
+Seat 1: pollos05 (1930 in chips) 
+Seat 2: hurrybote (1500 in chips) 
+Seat 3: reepay (1380 in chips) 
+Seat 4: tennbull (1710 in chips) 
+Seat 5: macjames2011 (1340 in chips) 
+Seat 6: optimus0692 (1770 in chips) 
+Seat 7: NewfieNez (1905 in chips) 
+Seat 8: Frsh 2 Da T (3520 in chips) 
+Seat 9: garduke366 (1445 in chips) 
+tennbull: posts small blind 25
+macjames2011: posts big blind 50
+*** HOLE CARDS ***
+Dealt to hurrybote [8c 4s]
+optimus0692: folds 
+NewfieNez: folds 
+Frsh 2 Da T: calls 50
+garduke366: calls 50
+pollos05: raises 50 to 100
+hurrybote: folds 
+reepay: folds 
+tennbull: calls 75
+macjames2011: raises 1240 to 1340 and is all-in
+Frsh 2 Da T: folds 
+garduke366: raises 105 to 1445 and is all-in
+pollos05: calls 1345
+tennbull: folds 
+*** FLOP *** [Jc 6c Jh]
+*** TURN *** [Jc 6c Jh] [5s]
+*** RIVER *** [Jc 6c Jh 5s] [Qs]
+*** SHOW DOWN ***
+garduke366: shows [8d 8s] (two pair, Jacks and Eights)
+pollos05: shows [As Kh] (a pair of Jacks)
+garduke366 collected 210 from side pot
+macjames2011: shows [Ah Ac] (two pair, Aces and Jacks)
+macjames2011 collected 4170 from main pot
+*** SUMMARY ***
+Total pot 4380 Main pot 4170. Side pot 210. | Rake 0 
+Board [Jc 6c Jh 5s Qs]
+Seat 1: pollos05 showed [As Kh] and lost with a pair of Jacks
+Seat 2: hurrybote folded before Flop (didn't bet)
+Seat 3: reepay (button) folded before Flop (didn't bet)
+Seat 4: tennbull (small blind) folded before Flop
+Seat 5: macjames2011 (big blind) showed [Ah Ac] and won (4170) with two pair, Aces and Jacks
+Seat 6: optimus0692 folded before Flop (didn't bet)
+Seat 7: NewfieNez folded before Flop (didn't bet)
+Seat 8: Frsh 2 Da T folded before Flop
+Seat 9: garduke366 showed [8d 8s] and won (210) with two pair, Jacks and Eights
+
+
+
+PokerStars Hand #206624649055: Tournament #2742423452, 8700+1300 Hold'em No Limit - Level III (25/50) - 2019/11/28 22:16:40 ET
+Table '2742423452 17' 9-max Seat #4 is the button
+Seat 1: pollos05 (485 in chips) 
+Seat 2: hurrybote (1500 in chips) 
+Seat 4: tennbull (1610 in chips) 
+Seat 5: macjames2011 (4170 in chips) 
+Seat 6: optimus0692 (1770 in chips) 
+Seat 7: NewfieNez (1905 in chips) 
+Seat 8: Frsh 2 Da T (3470 in chips) 
+Seat 9: garduke366 (210 in chips) 
+macjames2011: posts small blind 25
+optimus0692: posts big blind 50
+*** HOLE CARDS ***
+Dealt to hurrybote [Kh 9d]
+NewfieNez: folds 
+Frsh 2 Da T: folds 
+garduke366: raises 160 to 210 and is all-in
+pollos05: folds 
+hurrybote: folds 
+tennbull: calls 210
+macjames2011: folds 
+optimus0692: folds 
+*** FLOP *** [Jc 3h Kc]
+*** TURN *** [Jc 3h Kc] [5d]
+*** RIVER *** [Jc 3h Kc 5d] [Ks]
+*** SHOW DOWN ***
+garduke366: shows [8d Ac] (a pair of Kings)
+tennbull: shows [Th Ad] (a pair of Kings - Ace+Jack+Ten kicker)
+tennbull collected 495 from pot
+garduke366 finished the tournament
+*** SUMMARY ***
+Total pot 495 | Rake 0 
+Board [Jc 3h Kc 5d Ks]
+Seat 1: pollos05 folded before Flop (didn't bet)
+Seat 2: hurrybote folded before Flop (didn't bet)
+Seat 4: tennbull (button) showed [Th Ad] and won (495) with a pair of Kings
+Seat 5: macjames2011 (small blind) folded before Flop
+Seat 6: optimus0692 (big blind) folded before Flop
+Seat 7: NewfieNez folded before Flop (didn't bet)
+Seat 8: Frsh 2 Da T folded before Flop (didn't bet)
+Seat 9: garduke366 showed [8d Ac] and lost with a pair of Kings
+
+
+
+PokerStars Hand #206624656374: Tournament #2742423452, 8700+1300 Hold'em No Limit - Level III (25/50) - 2019/11/28 22:17:13 ET
+Table '2742423452 17' 9-max Seat #5 is the button
+Seat 1: pollos05 (485 in chips) 
+Seat 2: hurrybote (1500 in chips) 
+Seat 3: giyeco (1500 in chips) 
+Seat 4: tennbull (1895 in chips) 
+Seat 5: macjames2011 (4145 in chips) 
+Seat 6: optimus0692 (1720 in chips) 
+Seat 7: NewfieNez (1905 in chips) 
+Seat 8: Frsh 2 Da T (3470 in chips) 
+optimus0692: posts small blind 25
+NewfieNez: posts big blind 50
+*** HOLE CARDS ***
+Dealt to hurrybote [3d 8s]
+Frsh 2 Da T: calls 50
+pollos05: calls 50
+hurrybote: folds 
+giyeco: calls 50
+tennbull: calls 50
+macjames2011: folds 
+optimus0692: raises 50 to 100
+NewfieNez: folds 
+Frsh 2 Da T: calls 50
+pollos05: calls 50
+giyeco: calls 50
+tennbull: calls 50
+*** FLOP *** [4h 2d 6d]
+optimus0692: checks 
+Frsh 2 Da T: checks 
+pollos05: checks 
+giyeco: checks 
+tennbull: checks 
+*** TURN *** [4h 2d 6d] [5h]
+optimus0692: checks 
+Frsh 2 Da T: bets 50
+pollos05: folds 
+giyeco: calls 50
+tennbull: folds 
+optimus0692: folds 
+*** RIVER *** [4h 2d 6d 5h] [7d]
+Frsh 2 Da T: bets 100
+giyeco: folds 
+Uncalled bet (100) returned to Frsh 2 Da T
+Frsh 2 Da T collected 650 from pot
+Frsh 2 Da T: doesn't show hand 
+*** SUMMARY ***
+Total pot 650 | Rake 0 
+Board [4h 2d 6d 5h 7d]
+Seat 1: pollos05 folded on the Turn
+Seat 2: hurrybote folded before Flop (didn't bet)
+Seat 3: giyeco folded on the River
+Seat 4: tennbull folded on the Turn
+Seat 5: macjames2011 (button) folded before Flop (didn't bet)
+Seat 6: optimus0692 (small blind) folded on the Turn
+Seat 7: NewfieNez (big blind) folded before Flop
+Seat 8: Frsh 2 Da T collected (650)
+
+
+
+PokerStars Hand #206624685739: Tournament #2742423452, 8700+1300 Hold'em No Limit - Level III (25/50) - 2019/11/28 22:19:23 ET
+Table '2742423452 15' 9-max Seat #7 is the button
+Seat 1: star5400 (4573 in chips) 
+Seat 2: kiki.lozano (3068 in chips) 
+Seat 3: S-O-L-800739 (1315 in chips) 
+Seat 4: hurrybote (1500 in chips) 
+Seat 5: laztony (4650 in chips) 
+Seat 6: PróximaMidnight (1862 in chips) 
+Seat 7: MOÑOROJO2000 (1197 in chips) 
+Seat 8: WillWalker783 (3310 in chips) out of hand (moved from another table into small blind)
+WillWalker783 will be allowed to play after the button
+star5400: posts small blind 25
+kiki.lozano: posts big blind 50
+*** HOLE CARDS ***
+Dealt to hurrybote [7d 3d]
+S-O-L-800739: calls 50
+hurrybote: folds 
+laztony: calls 50
+PróximaMidnight: folds 
+MOÑOROJO2000: calls 50
+star5400: calls 25
+kiki.lozano: checks 
+*** FLOP *** [3s 8c 5h]
+star5400: bets 250
+kiki.lozano: folds 
+S-O-L-800739: calls 250
+laztony: calls 250
+MOÑOROJO2000: calls 250
+*** TURN *** [3s 8c 5h] [9h]
+star5400: bets 600
+S-O-L-800739: raises 415 to 1015 and is all-in
+laztony: calls 1015
+MOÑOROJO2000: folds 
+star5400: calls 415
+*** RIVER *** [3s 8c 5h 9h] [9s]
+star5400: bets 2150
+laztony: folds 
+Uncalled bet (2150) returned to star5400
+*** SHOW DOWN ***
+star5400: shows [Ac 8s] (two pair, Nines and Eights)
+S-O-L-800739: shows [Th 8h] (two pair, Nines and Eights - lower kicker)
+star5400 collected 4295 from pot
+S-O-L-800739 finished the tournament
+*** SUMMARY ***
+Total pot 4295 | Rake 0 
+Board [3s 8c 5h 9h 9s]
+Seat 1: star5400 (small blind) showed [Ac 8s] and won (4295) with two pair, Nines and Eights
+Seat 2: kiki.lozano (big blind) folded on the Flop
+Seat 3: S-O-L-800739 showed [Th 8h] and lost with two pair, Nines and Eights
+Seat 4: hurrybote folded before Flop (didn't bet)
+Seat 5: laztony folded on the River
+Seat 6: PróximaMidnight folded before Flop (didn't bet)
+Seat 7: MOÑOROJO2000 (button) folded on the Turn
+
+
+
+PokerStars Hand #206624708510: Tournament #2742423452, 8700+1300 Hold'em No Limit - Level IV (50/100) - 2019/11/28 22:20:27 ET
+Table '2742423452 15' 9-max Seat #1 is the button
+Seat 1: star5400 (7553 in chips) 
+Seat 2: kiki.lozano (3018 in chips) 
+Seat 4: hurrybote (1500 in chips) 
+Seat 5: laztony (3335 in chips) 
+Seat 6: PróximaMidnight (1862 in chips) 
+Seat 7: MOÑOROJO2000 (897 in chips) 
+Seat 8: WillWalker783 (3310 in chips) 
+Seat 9: jijiji76 (1395 in chips) is sitting out
+kiki.lozano: posts small blind 50
+hurrybote: posts big blind 100
+*** HOLE CARDS ***
+Dealt to hurrybote [4s Kh]
+laztony: calls 100
+PróximaMidnight: folds 
+WillWalker783 is disconnected 
+MOÑOROJO2000: calls 100
+WillWalker783 has timed out while disconnected
+WillWalker783: folds 
+jijiji76: folds 
+star5400: folds 
+kiki.lozano: calls 50
+hurrybote: checks 
+*** FLOP *** [2h 4h 8c]
+kiki.lozano: checks 
+hurrybote: checks 
+laztony: bets 200
+MOÑOROJO2000: calls 200
+kiki.lozano: folds 
+hurrybote: folds 
+*** TURN *** [2h 4h 8c] [As]
+laztony: checks 
+MOÑOROJO2000: bets 597 and is all-in
+laztony: calls 597
+*** RIVER *** [2h 4h 8c As] [9h]
+*** SHOW DOWN ***
+laztony: shows [8s Ks] (a pair of Eights)
+MOÑOROJO2000: shows [Kc 9s] (a pair of Nines)
+MOÑOROJO2000 collected 1994 from pot
+*** SUMMARY ***
+Total pot 1994 | Rake 0 
+Board [2h 4h 8c As 9h]
+Seat 1: star5400 (button) folded before Flop (didn't bet)
+Seat 2: kiki.lozano (small blind) folded on the Flop
+Seat 4: hurrybote (big blind) folded on the Flop
+Seat 5: laztony showed [8s Ks] and lost with a pair of Eights
+Seat 6: PróximaMidnight folded before Flop (didn't bet)
+Seat 7: MOÑOROJO2000 showed [Kc 9s] and won (1994) with a pair of Nines
+Seat 8: WillWalker783 folded before Flop (didn't bet)
+Seat 9: jijiji76 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #206624722024: Tournament #2742423452, 8700+1300 Hold'em No Limit - Level IV (50/100) - 2019/11/28 22:21:28 ET
+Table '2742423452 15' 9-max Seat #2 is the button
+Seat 1: Car Alb Ling (1500 in chips) 
+Seat 2: kiki.lozano (2918 in chips) 
+Seat 3: whitecloud5119 (1500 in chips) out of hand (moved from another table into small blind)
+Seat 4: hurrybote (1400 in chips) 
+Seat 5: laztony (2438 in chips) 
+Seat 6: PróximaMidnight (1862 in chips) 
+Seat 7: MOÑOROJO2000 (1994 in chips) 
+Seat 8: WillWalker783 (3310 in chips) 
+Seat 9: jijiji76 (1395 in chips) is sitting out
+whitecloud5119 will be allowed to play after the button
+hurrybote: posts small blind 50
+laztony: posts big blind 100
+*** HOLE CARDS ***
+Dealt to hurrybote [9s Jd]
+PróximaMidnight: calls 100
+MOÑOROJO2000: calls 100
+WillWalker783: raises 500 to 600
+jijiji76: folds 
+Car Alb Ling: folds 
+kiki.lozano: folds 
+hurrybote: folds 
+laztony: folds 
+PróximaMidnight: calls 500
+MOÑOROJO2000: calls 500
+*** FLOP *** [Ah 6d 3h]
+PróximaMidnight: checks 
+MOÑOROJO2000: checks 
+WillWalker783: bets 600
+PróximaMidnight: calls 600
+MOÑOROJO2000: folds 
+*** TURN *** [Ah 6d 3h] [3s]
+PróximaMidnight: checks 
+WillWalker783: bets 700
+PróximaMidnight: calls 662 and is all-in
+Uncalled bet (38) returned to WillWalker783
+*** RIVER *** [Ah 6d 3h 3s] [Th]
+*** SHOW DOWN ***
+PróximaMidnight: shows [Ts Tc] (a full house, Tens full of Threes)
+WillWalker783: shows [9c Ac] (two pair, Aces and Threes)
+PróximaMidnight collected 4474 from pot
+*** SUMMARY ***
+Total pot 4474 | Rake 0 
+Board [Ah 6d 3h 3s Th]
+Seat 1: Car Alb Ling folded before Flop (didn't bet)
+Seat 2: kiki.lozano (button) folded before Flop (didn't bet)
+Seat 4: hurrybote (small blind) folded before Flop
+Seat 5: laztony (big blind) folded before Flop
+Seat 6: PróximaMidnight showed [Ts Tc] and won (4474) with a full house, Tens full of Threes
+Seat 7: MOÑOROJO2000 folded on the Flop
+Seat 8: WillWalker783 showed [9c Ac] and lost with two pair, Aces and Threes
+Seat 9: jijiji76 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #206624738058: Tournament #2742423452, 8700+1300 Hold'em No Limit - Level IV (50/100) - 2019/11/28 22:22:26 ET
+Table '2742423452 15' 9-max Seat #4 is the button
+Seat 1: Car Alb Ling (1500 in chips) 
+Seat 2: kiki.lozano (2918 in chips) 
+Seat 3: whitecloud5119 (1500 in chips) 
+Seat 4: hurrybote (1350 in chips) 
+Seat 5: laztony (2338 in chips) 
+Seat 6: PróximaMidnight (4474 in chips) 
+Seat 7: MOÑOROJO2000 (1394 in chips) 
+Seat 8: WillWalker783 (1448 in chips) 
+Seat 9: jijiji76 (1395 in chips) is sitting out
+laztony: posts small blind 50
+PróximaMidnight: posts big blind 100
+*** HOLE CARDS ***
+Dealt to hurrybote [Jd Ad]
+MOÑOROJO2000: calls 100
+WillWalker783: folds 
+jijiji76: folds 
+Car Alb Ling: calls 100
+kiki.lozano: folds 
+whitecloud5119: folds 
+hurrybote: raises 100 to 200
+laztony: folds 
+PróximaMidnight: calls 100
+MOÑOROJO2000: calls 100
+Car Alb Ling: calls 100
+*** FLOP *** [7h 2h 4c]
+PróximaMidnight: checks 
+MOÑOROJO2000: bets 1194 and is all-in
+Car Alb Ling: folds 
+hurrybote: folds 
+PróximaMidnight: folds 
+Uncalled bet (1194) returned to MOÑOROJO2000
+MOÑOROJO2000 collected 850 from pot
+*** SUMMARY ***
+Total pot 850 | Rake 0 
+Board [7h 2h 4c]
+Seat 1: Car Alb Ling folded on the Flop
+Seat 2: kiki.lozano folded before Flop (didn't bet)
+Seat 3: whitecloud5119 folded before Flop (didn't bet)
+Seat 4: hurrybote (button) folded on the Flop
+Seat 5: laztony (small blind) folded before Flop
+Seat 6: PróximaMidnight (big blind) folded on the Flop
+Seat 7: MOÑOROJO2000 collected (850)
+Seat 8: WillWalker783 folded before Flop (didn't bet)
+Seat 9: jijiji76 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #206624750558: Tournament #2742423452, 8700+1300 Hold'em No Limit - Level IV (50/100) - 2019/11/28 22:23:23 ET
+Table '2742423452 15' 9-max Seat #5 is the button
+Seat 1: Car Alb Ling (1300 in chips) 
+Seat 2: kiki.lozano (2918 in chips) 
+Seat 3: whitecloud5119 (1500 in chips) 
+Seat 4: hurrybote (1150 in chips) 
+Seat 5: laztony (2288 in chips) 
+Seat 6: PróximaMidnight (4274 in chips) 
+Seat 7: MOÑOROJO2000 (2044 in chips) 
+Seat 8: WillWalker783 (1448 in chips) 
+Seat 9: jijiji76 (1395 in chips) is sitting out
+PróximaMidnight: posts small blind 50
+MOÑOROJO2000: posts big blind 100
+*** HOLE CARDS ***
+Dealt to hurrybote [Ad 5h]
+WillWalker783 said, "grrrrrrrrrr  bet that hand!!!"
+WillWalker783: folds 
+jijiji76: folds 
+Car Alb Ling: calls 100
+kiki.lozano: folds 
+whitecloud5119: folds 
+hurrybote: raises 100 to 200
+WillWalker783 said, "yeah  i tried to come back"
+laztony: calls 200
+PróximaMidnight: folds 
+MOÑOROJO2000: calls 100
+Car Alb Ling: calls 100
+*** FLOP *** [6d Ts Ks]
+WillWalker783 said, "but fuc this site"
+MOÑOROJO2000: bets 100
+Car Alb Ling: calls 100
+WillWalker783 said, "too many dam idiots that win"
+hurrybote: calls 100
+laztony: folds 
+*** TURN *** [6d Ts Ks] [Jc]
+MOÑOROJO2000: checks 
+Car Alb Ling: checks 
+hurrybote: checks 
+*** RIVER *** [6d Ts Ks Jc] [2c]
+MOÑOROJO2000: checks 
+Car Alb Ling: checks 
+hurrybote: checks 
+*** SHOW DOWN ***
+MOÑOROJO2000: shows [Tc 4c] (a pair of Tens)
+Car Alb Ling: mucks hand 
+hurrybote: mucks hand 
+MOÑOROJO2000 collected 1150 from pot
+*** SUMMARY ***
+Total pot 1150 | Rake 0 
+Board [6d Ts Ks Jc 2c]
+Seat 1: Car Alb Ling mucked [6h As]
+Seat 2: kiki.lozano folded before Flop (didn't bet)
+Seat 3: whitecloud5119 folded before Flop (didn't bet)
+Seat 4: hurrybote mucked [Ad 5h]
+Seat 5: laztony (button) folded on the Flop
+Seat 6: PróximaMidnight (small blind) folded before Flop
+Seat 7: MOÑOROJO2000 (big blind) showed [Tc 4c] and won (1150) with a pair of Tens
+Seat 8: WillWalker783 folded before Flop (didn't bet)
+Seat 9: jijiji76 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #206624763618: Tournament #2742423452, 8700+1300 Hold'em No Limit - Level IV (50/100) - 2019/11/28 22:24:22 ET
+Table '2742423452 15' 9-max Seat #6 is the button
+Seat 1: Car Alb Ling (1000 in chips) 
+Seat 2: kiki.lozano (2918 in chips) 
+Seat 3: whitecloud5119 (1500 in chips) 
+Seat 4: hurrybote (850 in chips) 
+Seat 5: laztony (2088 in chips) 
+Seat 6: PróximaMidnight (4224 in chips) 
+Seat 7: MOÑOROJO2000 (2894 in chips) 
+Seat 8: WillWalker783 (1448 in chips) 
+Seat 9: jijiji76 (1395 in chips) is sitting out
+MOÑOROJO2000: posts small blind 50
+WillWalker783: posts big blind 100
+*** HOLE CARDS ***
+Dealt to hurrybote [9c 4h]
+jijiji76: folds 
+Car Alb Ling: calls 100
+kiki.lozano: folds 
+whitecloud5119: calls 100
+hurrybote: folds 
+laztony: folds 
+PróximaMidnight: folds 
+MOÑOROJO2000: calls 50
+WillWalker783: checks 
+*** FLOP *** [7d 9d 5d]
+MOÑOROJO2000: bets 100
+WillWalker783 said, "i been back 3 days and i already fed up with the stupidity"
+WillWalker783: raises 1248 to 1348 and is all-in
+Car Alb Ling: folds 
+whitecloud5119: calls 1348
+MOÑOROJO2000: folds 
+*** TURN *** [7d 9d 5d] [7s]
+*** RIVER *** [7d 9d 5d 7s] [2h]
+*** SHOW DOWN ***
+WillWalker783: shows [7c 8d] (three of a kind, Sevens)
+whitecloud5119: shows [Td As] (a pair of Sevens)
+WillWalker783 collected 3196 from pot
+*** SUMMARY ***
+Total pot 3196 | Rake 0 
+Board [7d 9d 5d 7s 2h]
+Seat 1: Car Alb Ling folded on the Flop
+Seat 2: kiki.lozano folded before Flop (didn't bet)
+Seat 3: whitecloud5119 showed [Td As] and lost with a pair of Sevens
+Seat 4: hurrybote folded before Flop (didn't bet)
+Seat 5: laztony folded before Flop (didn't bet)
+Seat 6: PróximaMidnight (button) folded before Flop (didn't bet)
+Seat 7: MOÑOROJO2000 (small blind) folded on the Flop
+Seat 8: WillWalker783 (big blind) showed [7c 8d] and won (3196) with three of a kind, Sevens
+Seat 9: jijiji76 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #206624781884: Tournament #2742423452, 8700+1300 Hold'em No Limit - Level V (75/150) - 2019/11/28 22:25:13 ET
+Table '2742423452 15' 9-max Seat #7 is the button
+Seat 1: Car Alb Ling (900 in chips) 
+Seat 2: kiki.lozano (2918 in chips) 
+Seat 3: whitecloud5119 (52 in chips) 
+Seat 4: hurrybote (850 in chips) 
+Seat 5: laztony (2088 in chips) 
+Seat 6: PróximaMidnight (4224 in chips) 
+Seat 7: MOÑOROJO2000 (2694 in chips) 
+Seat 8: WillWalker783 (3196 in chips) 
+Seat 9: jijiji76 (1395 in chips) is sitting out
+WillWalker783: posts small blind 75
+jijiji76: posts big blind 150
+*** HOLE CARDS ***
+Dealt to hurrybote [7s 9h]
+Car Alb Ling: folds 
+kiki.lozano: folds 
+whitecloud5119: calls 52 and is all-in
+hurrybote: folds 
+laztony: calls 150
+PróximaMidnight: folds 
+MOÑOROJO2000: calls 150
+WillWalker783: calls 75
+jijiji76: folds 
+*** FLOP *** [Js 2d 9s]
+WillWalker783: checks 
+laztony: checks 
+MOÑOROJO2000: checks 
+*** TURN *** [Js 2d 9s] [3c]
+WillWalker783: bets 300
+laztony: calls 300
+MOÑOROJO2000: folds 
+*** RIVER *** [Js 2d 9s 3c] [5d]
+WillWalker783: bets 300
+laztony: calls 300
+*** SHOW DOWN ***
+WillWalker783: shows [8s 9d] (a pair of Nines)
+laztony: shows [2s 5s] (two pair, Fives and Deuces)
+laztony collected 1592 from side pot
+whitecloud5119: mucks hand 
+laztony collected 260 from main pot
+whitecloud5119 finished the tournament
+*** SUMMARY ***
+Total pot 1852 Main pot 260. Side pot 1592. | Rake 0 
+Board [Js 2d 9s 3c 5d]
+Seat 1: Car Alb Ling folded before Flop (didn't bet)
+Seat 2: kiki.lozano folded before Flop (didn't bet)
+Seat 3: whitecloud5119 mucked [8d 6c]
+Seat 4: hurrybote folded before Flop (didn't bet)
+Seat 5: laztony showed [2s 5s] and won (1852) with two pair, Fives and Deuces
+Seat 6: PróximaMidnight folded before Flop (didn't bet)
+Seat 7: MOÑOROJO2000 (button) folded on the Turn
+Seat 8: WillWalker783 (small blind) showed [8s 9d] and lost with a pair of Nines
+Seat 9: jijiji76 (big blind) folded before Flop
+
+
+
+PokerStars Hand #206624793026: Tournament #2742423452, 8700+1300 Hold'em No Limit - Level V (75/150) - 2019/11/28 22:26:03 ET
+Table '2742423452 15' 9-max Seat #8 is the button
+Seat 1: Car Alb Ling (900 in chips) 
+Seat 2: kiki.lozano (2918 in chips) 
+Seat 4: hurrybote (850 in chips) 
+Seat 5: laztony (3190 in chips) 
+Seat 6: PróximaMidnight (4224 in chips) 
+Seat 7: MOÑOROJO2000 (2544 in chips) 
+Seat 8: WillWalker783 (2446 in chips) 
+Seat 9: jijiji76 (1245 in chips) is sitting out
+jijiji76: posts small blind 75
+Car Alb Ling: posts big blind 150
+*** HOLE CARDS ***
+Dealt to hurrybote [Th Qh]
+WillWalker783 said, "WTF"
+kiki.lozano: folds 
+hurrybote: raises 150 to 300
+laztony: calls 300
+PróximaMidnight: folds 
+MOÑOROJO2000: calls 300
+WillWalker783 said, "THATS THE BULL CHIT IM TALKING ABOUT"
+WillWalker783 has timed out
+WillWalker783: folds 
+jijiji76: folds 
+WillWalker783 said, "2 fckn 5"
+Car Alb Ling: calls 150
+*** FLOP *** [6h 9c Kd]
+Car Alb Ling: checks 
+laztony said, "ha"
+hurrybote: bets 550 and is all-in
+laztony: calls 550
+MOÑOROJO2000: calls 550
+Car Alb Ling: folds 
+*** TURN *** [6h 9c Kd] [Qd]
+laztony: checks 
+MOÑOROJO2000: checks 
+*** RIVER *** [6h 9c Kd Qd] [9d]
+laztony: checks 
+MOÑOROJO2000: checks 
+*** SHOW DOWN ***
+hurrybote: shows [Th Qh] (two pair, Queens and Nines)
+laztony: mucks hand 
+MOÑOROJO2000: mucks hand 
+hurrybote collected 2925 from pot
+*** SUMMARY ***
+Total pot 2925 | Rake 0 
+Board [6h 9c Kd Qd 9d]
+Seat 1: Car Alb Ling (big blind) folded on the Flop
+Seat 2: kiki.lozano folded before Flop (didn't bet)
+Seat 4: hurrybote showed [Th Qh] and won (2925) with two pair, Queens and Nines
+Seat 5: laztony mucked [8h 5h]
+Seat 6: PróximaMidnight folded before Flop (didn't bet)
+Seat 7: MOÑOROJO2000 mucked [Td 6s]
+Seat 8: WillWalker783 (button) folded before Flop (didn't bet)
+Seat 9: jijiji76 (small blind) folded before Flop
+
+
+
+PokerStars Hand #206624805619: Tournament #2742423452, 8700+1300 Hold'em No Limit - Level V (75/150) - 2019/11/28 22:27:01 ET
+Table '2742423452 15' 9-max Seat #9 is the button
+Seat 1: Car Alb Ling (600 in chips) 
+Seat 2: kiki.lozano (2918 in chips) 
+Seat 3: N1K0LAEV1CH (1500 in chips) 
+Seat 4: hurrybote (2925 in chips) 
+Seat 5: laztony (2340 in chips) 
+Seat 6: PróximaMidnight (4224 in chips) 
+Seat 7: MOÑOROJO2000 (1694 in chips) 
+Seat 8: WillWalker783 (2446 in chips) 
+Seat 9: jijiji76 (1170 in chips) is sitting out
+Car Alb Ling: posts small blind 75
+kiki.lozano: posts big blind 150
+*** HOLE CARDS ***
+Dealt to hurrybote [2s As]
+WillWalker783 said, "fckn bull chit"
+N1K0LAEV1CH: folds 
+hurrybote: raises 150 to 300
+laztony: folds 
+PróximaMidnight: folds 
+MOÑOROJO2000: calls 300
+WillWalker783: folds 
+jijiji76: folds 
+Car Alb Ling: calls 225
+kiki.lozano: folds 
+*** FLOP *** [7h Kh Th]
+Car Alb Ling: bets 300 and is all-in
+hurrybote: folds 
+MOÑOROJO2000: calls 300
+WillWalker783 said, "got no respect  playing that bull chit"
+*** TURN *** [7h Kh Th] [5s]
+*** RIVER *** [7h Kh Th 5s] [3c]
+*** SHOW DOWN ***
+Car Alb Ling: shows [Kc Ah] (a pair of Kings)
+MOÑOROJO2000: shows [7c 2c] (a pair of Sevens)
+Car Alb Ling collected 1650 from pot
+*** SUMMARY ***
+Total pot 1650 | Rake 0 
+Board [7h Kh Th 5s 3c]
+Seat 1: Car Alb Ling (small blind) showed [Kc Ah] and won (1650) with a pair of Kings
+Seat 2: kiki.lozano (big blind) folded before Flop
+Seat 3: N1K0LAEV1CH folded before Flop (didn't bet)
+Seat 4: hurrybote folded on the Flop
+Seat 5: laztony folded before Flop (didn't bet)
+Seat 6: PróximaMidnight folded before Flop (didn't bet)
+Seat 7: MOÑOROJO2000 showed [7c 2c] and lost with a pair of Sevens
+Seat 8: WillWalker783 folded before Flop (didn't bet)
+Seat 9: jijiji76 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #206624815962: Tournament #2742423452, 8700+1300 Hold'em No Limit - Level V (75/150) - 2019/11/28 22:27:49 ET
+Table '2742423452 15' 9-max Seat #1 is the button
+Seat 1: Car Alb Ling (1650 in chips) 
+Seat 2: kiki.lozano (2768 in chips) 
+Seat 3: N1K0LAEV1CH (1500 in chips) 
+Seat 4: hurrybote (2625 in chips) 
+Seat 5: laztony (2340 in chips) 
+Seat 6: PróximaMidnight (4224 in chips) 
+Seat 7: MOÑOROJO2000 (1094 in chips) 
+Seat 8: WillWalker783 (2446 in chips) 
+Seat 9: jijiji76 (1170 in chips) is sitting out
+kiki.lozano: posts small blind 75
+N1K0LAEV1CH: posts big blind 150
+*** HOLE CARDS ***
+Dealt to hurrybote [9s 2d]
+WillWalker783 said, "fuk you"
+hurrybote: folds 
+laztony: folds 
+PróximaMidnight: folds 
+MOÑOROJO2000: folds 
+WillWalker783: calls 150
+jijiji76: folds 
+Car Alb Ling: folds 
+kiki.lozano: calls 75
+N1K0LAEV1CH: checks 
+*** FLOP *** [Js Th 4s]
+WillWalker783 said, "and all the rest of the fckn donkey mother fukers on here"
+kiki.lozano: checks 
+N1K0LAEV1CH: checks 
+WillWalker783: checks 
+*** TURN *** [Js Th 4s] [Qd]
+kiki.lozano: checks 
+N1K0LAEV1CH: checks 
+WillWalker783 said, "you can all eat chit"
+WillWalker783: checks 
+*** RIVER *** [Js Th 4s Qd] [6c]
+kiki.lozano: checks 
+N1K0LAEV1CH: checks 
+WillWalker783: checks 
+*** SHOW DOWN ***
+kiki.lozano: shows [Jd 5c] (a pair of Jacks)
+N1K0LAEV1CH: mucks hand 
+laztony said, "i prefer  jackass"
+WillWalker783: mucks hand 
+kiki.lozano collected 450 from pot
+*** SUMMARY ***
+Total pot 450 | Rake 0 
+Board [Js Th 4s Qd 6c]
+Seat 1: Car Alb Ling (button) folded before Flop (didn't bet)
+Seat 2: kiki.lozano (small blind) showed [Jd 5c] and won (450) with a pair of Jacks
+Seat 3: N1K0LAEV1CH (big blind) mucked [3d 3h]
+Seat 4: hurrybote folded before Flop (didn't bet)
+Seat 5: laztony folded before Flop (didn't bet)
+Seat 6: PróximaMidnight folded before Flop (didn't bet)
+Seat 7: MOÑOROJO2000 folded before Flop (didn't bet)
+Seat 8: WillWalker783 mucked [6d Ad]
+Seat 9: jijiji76 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #206624835147: Tournament #2742423452, 8700+1300 Hold'em No Limit - Level V (75/150) - 2019/11/28 22:29:18 ET
+Table '2742423452 15' 9-max Seat #2 is the button
+Seat 1: Car Alb Ling (1650 in chips) 
+Seat 2: kiki.lozano (3068 in chips) 
+Seat 3: N1K0LAEV1CH (1350 in chips) 
+Seat 4: hurrybote (2625 in chips) 
+Seat 5: laztony (2340 in chips) 
+Seat 6: PróximaMidnight (4224 in chips) 
+Seat 7: MOÑOROJO2000 (1094 in chips) 
+Seat 8: WillWalker783 (2296 in chips) 
+Seat 9: jijiji76 (1170 in chips) is sitting out
+N1K0LAEV1CH: posts small blind 75
+hurrybote: posts big blind 150
+*** HOLE CARDS ***
+Dealt to hurrybote [Tc As]
+WillWalker783 said, "fuk this dam site  catering to you morons"
+laztony: folds 
+PróximaMidnight: calls 150
+MOÑOROJO2000: calls 150
+WillWalker783: folds 
+jijiji76: folds 
+Car Alb Ling: folds 
+kiki.lozano: folds 
+N1K0LAEV1CH: folds 
+hurrybote: checks 
+*** FLOP *** [Qd 4s 9d]
+hurrybote: checks 
+PróximaMidnight: checks 
+MOÑOROJO2000: bets 944 and is all-in
+hurrybote: folds 
+PróximaMidnight: calls 944
+*** TURN *** [Qd 4s 9d] [8d]
+*** RIVER *** [Qd 4s 9d 8d] [Qs]
+*** SHOW DOWN ***
+PróximaMidnight: shows [Jh Ad] (a pair of Queens)
+MOÑOROJO2000: shows [2d Qc] (three of a kind, Queens)
+MOÑOROJO2000 collected 2413 from pot
+*** SUMMARY ***
+Total pot 2413 | Rake 0 
+Board [Qd 4s 9d 8d Qs]
+Seat 1: Car Alb Ling folded before Flop (didn't bet)
+Seat 2: kiki.lozano (button) folded before Flop (didn't bet)
+Seat 3: N1K0LAEV1CH (small blind) folded before Flop
+Seat 4: hurrybote (big blind) folded on the Flop
+Seat 5: laztony folded before Flop (didn't bet)
+Seat 6: PróximaMidnight showed [Jh Ad] and lost with a pair of Queens
+Seat 7: MOÑOROJO2000 showed [2d Qc] and won (2413) with three of a kind, Queens
+Seat 8: WillWalker783 folded before Flop (didn't bet)
+Seat 9: jijiji76 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #206624847211: Tournament #2742423452, 8700+1300 Hold'em No Limit - Level VI (100/200) - 2019/11/28 22:30:14 ET
+Table '2742423452 15' 9-max Seat #3 is the button
+Seat 1: Car Alb Ling (1650 in chips) 
+Seat 2: kiki.lozano (3068 in chips) 
+Seat 3: N1K0LAEV1CH (1275 in chips) 
+Seat 4: hurrybote (2475 in chips) 
+Seat 5: laztony (2340 in chips) 
+Seat 6: PróximaMidnight (3130 in chips) 
+Seat 7: MOÑOROJO2000 (2413 in chips) 
+Seat 8: WillWalker783 (2296 in chips) 
+Seat 9: jijiji76 (1170 in chips) is sitting out
+hurrybote: posts small blind 100
+laztony: posts big blind 200
+*** HOLE CARDS ***
+Dealt to hurrybote [Kc Kd]
+PróximaMidnight: folds 
+WillWalker783 said, "mother fulers playing all with 23  and win 24 and 25s"
+MOÑOROJO2000: calls 200
+WillWalker783 said, "fukn joke"
+laztony said, "yuo better go tell joe"
+WillWalker783: folds 
+jijiji76: folds 
+Car Alb Ling: folds 
+kiki.lozano: calls 200
+N1K0LAEV1CH: folds 
+hurrybote: raises 200 to 400
+laztony: calls 200
+MOÑOROJO2000: calls 200
+kiki.lozano: calls 200
+*** FLOP *** [Ts 3s Th]
+hurrybote: bets 600
+laztony: calls 600
+MOÑOROJO2000: folds 
+kiki.lozano: calls 600
+*** TURN *** [Ts 3s Th] [Jh]
+hurrybote: bets 1475 and is all-in
+laztony: folds 
+kiki.lozano: folds 
+Uncalled bet (1475) returned to hurrybote
+hurrybote collected 3400 from pot
+hurrybote: doesn't show hand 
+*** SUMMARY ***
+Total pot 3400 | Rake 0 
+Board [Ts 3s Th Jh]
+Seat 1: Car Alb Ling folded before Flop (didn't bet)
+Seat 2: kiki.lozano folded on the Turn
+Seat 3: N1K0LAEV1CH (button) folded before Flop (didn't bet)
+Seat 4: hurrybote (small blind) collected (3400)
+Seat 5: laztony (big blind) folded on the Turn
+Seat 6: PróximaMidnight folded before Flop (didn't bet)
+Seat 7: MOÑOROJO2000 folded on the Flop
+Seat 8: WillWalker783 folded before Flop (didn't bet)
+Seat 9: jijiji76 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #206624863453: Tournament #2742423452, 8700+1300 Hold'em No Limit - Level VI (100/200) - 2019/11/28 22:31:30 ET
+Table '2742423452 15' 9-max Seat #4 is the button
+Seat 1: Car Alb Ling (1650 in chips) 
+Seat 2: kiki.lozano (2068 in chips) 
+Seat 3: N1K0LAEV1CH (1275 in chips) 
+Seat 4: hurrybote (4875 in chips) 
+Seat 5: laztony (1340 in chips) 
+Seat 6: PróximaMidnight (3130 in chips) 
+Seat 7: MOÑOROJO2000 (2013 in chips) 
+Seat 8: WillWalker783 (2296 in chips) 
+Seat 9: jijiji76 (1170 in chips) is sitting out
+laztony: posts small blind 100
+PróximaMidnight: posts big blind 200
+*** HOLE CARDS ***
+Dealt to hurrybote [6d Kh]
+MOÑOROJO2000: calls 200
+WillWalker783: folds 
+jijiji76: folds 
+Car Alb Ling: folds 
+kiki.lozano: folds 
+N1K0LAEV1CH: folds 
+hurrybote: folds 
+laztony: raises 400 to 600
+kiki.lozano is disconnected 
+PróximaMidnight: calls 400
+MOÑOROJO2000: calls 400
+*** FLOP *** [Js 3s 9s]
+WillWalker783 said, "this aint poker   at all"
+laztony: bets 740 and is all-in
+PróximaMidnight: calls 740
+MOÑOROJO2000: folds 
+*** TURN *** [Js 3s 9s] [3d]
+*** RIVER *** [Js 3s 9s 3d] [7h]
+*** SHOW DOWN ***
+laztony: shows [Ah Kc] (a pair of Threes)
+PróximaMidnight: shows [Ad 9d] (two pair, Nines and Threes)
+WillWalker783 said, "never see this kind of dumb chit in a real game"
+PróximaMidnight collected 3280 from pot
+laztony finished the tournament
+*** SUMMARY ***
+Total pot 3280 | Rake 0 
+Board [Js 3s 9s 3d 7h]
+Seat 1: Car Alb Ling folded before Flop (didn't bet)
+Seat 2: kiki.lozano folded before Flop (didn't bet)
+Seat 3: N1K0LAEV1CH folded before Flop (didn't bet)
+Seat 4: hurrybote (button) folded before Flop (didn't bet)
+Seat 5: laztony (small blind) showed [Ah Kc] and lost with a pair of Threes
+Seat 6: PróximaMidnight (big blind) showed [Ad 9d] and won (3280) with two pair, Nines and Threes
+Seat 7: MOÑOROJO2000 folded on the Flop
+Seat 8: WillWalker783 folded before Flop (didn't bet)
+Seat 9: jijiji76 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #206624872622: Tournament #2742423452, 8700+1300 Hold'em No Limit - Level VI (100/200) - 2019/11/28 22:32:13 ET
+Table '2742423452 15' 9-max Seat #6 is the button
+Seat 1: Car Alb Ling (1650 in chips) 
+Seat 2: kiki.lozano (2068 in chips) 
+Seat 3: N1K0LAEV1CH (1275 in chips) 
+Seat 4: hurrybote (4875 in chips) 
+Seat 6: PróximaMidnight (5070 in chips) 
+Seat 7: MOÑOROJO2000 (1413 in chips) 
+Seat 8: WillWalker783 (2296 in chips) 
+Seat 9: jijiji76 (1170 in chips) is sitting out
+MOÑOROJO2000: posts small blind 100
+WillWalker783: posts big blind 200
+*** HOLE CARDS ***
+Dealt to hurrybote [8c Ts]
+jijiji76: folds 
+Car Alb Ling: calls 200
+kiki.lozano has timed out while disconnected
+kiki.lozano: folds 
+N1K0LAEV1CH: folds 
+hurrybote: folds 
+PróximaMidnight: folds 
+MOÑOROJO2000: calls 100
+WillWalker783: checks 
+*** FLOP *** [2s Th 5h]
+MOÑOROJO2000: bets 200
+WillWalker783: folds 
+Car Alb Ling has timed out
+Car Alb Ling: folds 
+Uncalled bet (200) returned to MOÑOROJO2000
+MOÑOROJO2000 collected 600 from pot
+*** SUMMARY ***
+Total pot 600 | Rake 0 
+Board [2s Th 5h]
+Seat 1: Car Alb Ling folded on the Flop
+Seat 2: kiki.lozano folded before Flop (didn't bet)
+Seat 3: N1K0LAEV1CH folded before Flop (didn't bet)
+Seat 4: hurrybote folded before Flop (didn't bet)
+Seat 6: PróximaMidnight (button) folded before Flop (didn't bet)
+Seat 7: MOÑOROJO2000 (small blind) collected (600)
+Seat 8: WillWalker783 (big blind) folded on the Flop
+Seat 9: jijiji76 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #206624890490: Tournament #2742423452, 8700+1300 Hold'em No Limit - Level VI (100/200) - 2019/11/28 22:33:18 ET
+Table '2742423452 15' 9-max Seat #7 is the button
+Seat 1: Car Alb Ling (1450 in chips) 
+Seat 2: kiki.lozano (2068 in chips) is sitting out
+Seat 4: hurrybote (4875 in chips) 
+Seat 5: anita830 (1500 in chips) 
+Seat 6: PróximaMidnight (5070 in chips) 
+Seat 7: MOÑOROJO2000 (1813 in chips) 
+Seat 8: WillWalker783 (2096 in chips) 
+Seat 9: jijiji76 (1170 in chips) is sitting out
+WillWalker783: posts small blind 100
+jijiji76: posts big blind 200
+*** HOLE CARDS ***
+Dealt to hurrybote [5c 8h]
+Car Alb Ling: folds 
+kiki.lozano: folds 
+hurrybote: folds 
+anita830 is connected 
+anita830: calls 200
+PróximaMidnight: folds 
+MOÑOROJO2000 is disconnected 
+MOÑOROJO2000 has timed out while disconnected
+MOÑOROJO2000: folds 
+WillWalker783 said, "sick of the dumb mother fukrs  beating me  grrrrrrrrrrr   is always trash players"
+WillWalker783: calls 100
+jijiji76: folds 
+*** FLOP *** [Js 8s 7s]
+WillWalker783: checks 
+anita830: checks 
+*** TURN *** [Js 8s 7s] [2h]
+WillWalker783: checks 
+anita830: checks 
+*** RIVER *** [Js 8s 7s 2h] [Ts]
+WillWalker783: checks 
+anita830: checks 
+*** SHOW DOWN ***
+WillWalker783: shows [7d Ac] (a pair of Sevens)
+anita830: mucks hand 
+WillWalker783 collected 600 from pot
+*** SUMMARY ***
+Total pot 600 | Rake 0 
+Board [Js 8s 7s 2h Ts]
+Seat 1: Car Alb Ling folded before Flop (didn't bet)
+Seat 2: kiki.lozano folded before Flop (didn't bet)
+Seat 4: hurrybote folded before Flop (didn't bet)
+Seat 5: anita830 mucked [Ah Qc]
+Seat 6: PróximaMidnight folded before Flop (didn't bet)
+Seat 7: MOÑOROJO2000 (button) folded before Flop (didn't bet)
+Seat 8: WillWalker783 (small blind) showed [7d Ac] and won (600) with a pair of Sevens
+Seat 9: jijiji76 (big blind) folded before Flop
+
+
+
+PokerStars Hand #206624903418: Tournament #2742423452, 8700+1300 Hold'em No Limit - Level VI (100/200) - 2019/11/28 22:34:18 ET
+Table '2742423452 15' 9-max Seat #8 is the button
+Seat 1: Car Alb Ling (1450 in chips) 
+Seat 2: kiki.lozano (2068 in chips) is sitting out
+Seat 3: PAARIAS (1500 in chips) 
+Seat 4: hurrybote (4875 in chips) 
+Seat 5: anita830 (1300 in chips) 
+Seat 6: PróximaMidnight (5070 in chips) 
+Seat 7: MOÑOROJO2000 (1813 in chips) is sitting out
+Seat 8: WillWalker783 (2496 in chips) 
+Seat 9: jijiji76 (970 in chips) is sitting out
+jijiji76: posts small blind 100
+Car Alb Ling: posts big blind 200
+*** HOLE CARDS ***
+Dealt to hurrybote [Jh Ts]
+kiki.lozano: folds 
+PAARIAS: calls 200
+hurrybote: folds 
+anita830: folds 
+PróximaMidnight: folds 
+MOÑOROJO2000: folds 
+WillWalker783: folds 
+jijiji76: folds 
+Car Alb Ling: checks 
+*** FLOP *** [5d Qd Kh]
+Car Alb Ling: checks 
+PAARIAS: bets 400
+Car Alb Ling: calls 400
+*** TURN *** [5d Qd Kh] [Kd]
+Car Alb Ling: checks 
+PAARIAS: checks 
+*** RIVER *** [5d Qd Kh Kd] [9c]
+Car Alb Ling: checks 
+PAARIAS: bets 900 and is all-in
+Car Alb Ling: calls 850 and is all-in
+Uncalled bet (50) returned to PAARIAS
+*** SHOW DOWN ***
+PAARIAS: shows [Ac 9h] (two pair, Kings and Nines)
+Car Alb Ling: shows [Ah Jc] (a pair of Kings)
+PAARIAS collected 3000 from pot
+Car Alb Ling finished the tournament in 238th place
+*** SUMMARY ***
+Total pot 3000 | Rake 0 
+Board [5d Qd Kh Kd 9c]
+Seat 1: Car Alb Ling (big blind) showed [Ah Jc] and lost with a pair of Kings
+Seat 2: kiki.lozano folded before Flop (didn't bet)
+Seat 3: PAARIAS showed [Ac 9h] and won (3000) with two pair, Kings and Nines
+Seat 4: hurrybote folded before Flop (didn't bet)
+Seat 5: anita830 folded before Flop (didn't bet)
+Seat 6: PróximaMidnight folded before Flop (didn't bet)
+Seat 7: MOÑOROJO2000 folded before Flop (didn't bet)
+Seat 8: WillWalker783 (button) folded before Flop (didn't bet)
+Seat 9: jijiji76 (small blind) folded before Flop
+
+
+
+PokerStars Hand #206624913506: Tournament #2742423452, 8700+1300 Hold'em No Limit - Level VII (125/250) - 2019/11/28 22:35:07 ET
+Table '2742423452 15' 9-max Seat #9 is the button
+Seat 2: kiki.lozano (2068 in chips) is sitting out
+Seat 3: PAARIAS (3050 in chips) 
+Seat 4: hurrybote (4875 in chips) 
+Seat 5: anita830 (1300 in chips) 
+Seat 6: PróximaMidnight (5070 in chips) 
+Seat 7: MOÑOROJO2000 (1813 in chips) is sitting out
+Seat 8: WillWalker783 (2496 in chips) 
+Seat 9: jijiji76 (870 in chips) is sitting out
+kiki.lozano: posts the ante 25
+PAARIAS: posts the ante 25
+hurrybote: posts the ante 25
+anita830: posts the ante 25
+PróximaMidnight: posts the ante 25
+MOÑOROJO2000: posts the ante 25
+WillWalker783: posts the ante 25
+jijiji76: posts the ante 25
+kiki.lozano: posts small blind 125
+PAARIAS: posts big blind 250
+*** HOLE CARDS ***
+Dealt to hurrybote [4c 3h]
+hurrybote: folds 
+anita830: calls 250
+PróximaMidnight: folds 
+MOÑOROJO2000: folds 
+WillWalker783: raises 750 to 1000
+jijiji76: folds 
+kiki.lozano: folds 
+WillWalker783 said, "billions of chips gone to ignorant plays"
+PAARIAS: calls 750
+anita830: folds 
+*** FLOP *** [9s 5h Kc]
+PAARIAS: bets 2025 and is all-in
+WillWalker783: calls 1471 and is all-in
+Uncalled bet (554) returned to PAARIAS
+*** TURN *** [9s 5h Kc] [3c]
+*** RIVER *** [9s 5h Kc 3c] [6s]
+*** SHOW DOWN ***
+PAARIAS: shows [Th Qh] (high card King)
+WillWalker783: shows [Td Ad] (high card Ace)
+WillWalker783 collected 5517 from pot
+*** SUMMARY ***
+Total pot 5517 | Rake 0 
+Board [9s 5h Kc 3c 6s]
+Seat 2: kiki.lozano (small blind) folded before Flop
+Seat 3: PAARIAS (big blind) showed [Th Qh] and lost with high card King
+Seat 4: hurrybote folded before Flop (didn't bet)
+Seat 5: anita830 folded before Flop
+Seat 6: PróximaMidnight folded before Flop (didn't bet)
+Seat 7: MOÑOROJO2000 folded before Flop (didn't bet)
+Seat 8: WillWalker783 showed [Td Ad] and won (5517) with high card Ace
+Seat 9: jijiji76 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #206624923108: Tournament #2742423452, 8700+1300 Hold'em No Limit - Level VII (125/250) - 2019/11/28 22:35:52 ET
+Table '2742423452 15' 9-max Seat #2 is the button
+Seat 1: Mr.E418 (11713 in chips) 
+Seat 2: kiki.lozano (1918 in chips) is sitting out
+Seat 3: PAARIAS (554 in chips) 
+Seat 4: hurrybote (4850 in chips) 
+Seat 5: anita830 (1025 in chips) 
+Seat 6: PróximaMidnight (5045 in chips) 
+Seat 7: MOÑOROJO2000 (1788 in chips) is sitting out
+Seat 8: WillWalker783 (5517 in chips) 
+Seat 9: jijiji76 (845 in chips) is sitting out
+Mr.E418: posts the ante 25
+kiki.lozano: posts the ante 25
+PAARIAS: posts the ante 25
+hurrybote: posts the ante 25
+anita830: posts the ante 25
+PróximaMidnight: posts the ante 25
+MOÑOROJO2000: posts the ante 25
+WillWalker783: posts the ante 25
+jijiji76: posts the ante 25
+PAARIAS: posts small blind 125
+hurrybote: posts big blind 250
+*** HOLE CARDS ***
+Dealt to hurrybote [2h 8d]
+anita830: folds 
+PróximaMidnight: calls 250
+MOÑOROJO2000: folds 
+WillWalker783: folds 
+jijiji76: folds 
+Mr.E418: folds 
+kiki.lozano: folds 
+PAARIAS: folds 
+hurrybote: checks 
+*** FLOP *** [Td 9s 9h]
+hurrybote: checks 
+PróximaMidnight: checks 
+*** TURN *** [Td 9s 9h] [4s]
+hurrybote: checks 
+PróximaMidnight: checks 
+*** RIVER *** [Td 9s 9h 4s] [4h]
+hurrybote: checks 
+PróximaMidnight: checks 
+*** SHOW DOWN ***
+hurrybote: shows [2h 8d] (two pair, Nines and Fours)
+PróximaMidnight: shows [Kd As] (two pair, Nines and Fours - Ace kicker)
+PróximaMidnight collected 850 from pot
+*** SUMMARY ***
+Total pot 850 | Rake 0 
+Board [Td 9s 9h 4s 4h]
+Seat 1: Mr.E418 folded before Flop (didn't bet)
+Seat 2: kiki.lozano (button) folded before Flop (didn't bet)
+Seat 3: PAARIAS (small blind) folded before Flop
+Seat 4: hurrybote (big blind) showed [2h 8d] and lost with two pair, Nines and Fours
+Seat 5: anita830 folded before Flop (didn't bet)
+Seat 6: PróximaMidnight showed [Kd As] and won (850) with two pair, Nines and Fours
+Seat 7: MOÑOROJO2000 folded before Flop (didn't bet)
+Seat 8: WillWalker783 folded before Flop (didn't bet)
+Seat 9: jijiji76 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #206624929939: Tournament #2742423452, 8700+1300 Hold'em No Limit - Level VII (125/250) - 2019/11/28 22:36:25 ET
+Table '2742423452 15' 9-max Seat #3 is the button
+Seat 1: Mr.E418 (11688 in chips) 
+Seat 2: kiki.lozano (1893 in chips) is sitting out
+Seat 3: PAARIAS (404 in chips) 
+Seat 4: hurrybote (4575 in chips) 
+Seat 5: anita830 (1000 in chips) 
+Seat 6: PróximaMidnight (5620 in chips) 
+Seat 7: MOÑOROJO2000 (1763 in chips) is sitting out
+Seat 8: WillWalker783 (5492 in chips) 
+Seat 9: jijiji76 (820 in chips) is sitting out
+Mr.E418: posts the ante 25
+kiki.lozano: posts the ante 25
+PAARIAS: posts the ante 25
+hurrybote: posts the ante 25
+anita830: posts the ante 25
+PróximaMidnight: posts the ante 25
+MOÑOROJO2000: posts the ante 25
+WillWalker783: posts the ante 25
+jijiji76: posts the ante 25
+hurrybote: posts small blind 125
+anita830: posts big blind 250
+*** HOLE CARDS ***
+Dealt to hurrybote [9c 8c]
+WillWalker783 said, "bet all with nothing???"
+PróximaMidnight: folds 
+MOÑOROJO2000: folds 
+WillWalker783: folds 
+jijiji76: folds 
+Mr.E418: calls 250
+kiki.lozano: folds 
+PAARIAS: raises 129 to 379 and is all-in
+hurrybote: folds 
+anita830: calls 129
+Mr.E418: calls 129
+*** FLOP *** [Ad 7s 7h]
+anita830: checks 
+Mr.E418: checks 
+*** TURN *** [Ad 7s 7h] [Jh]
+anita830: checks 
+Mr.E418: checks 
+*** RIVER *** [Ad 7s 7h Jh] [Jd]
+anita830: checks 
+Mr.E418: checks 
+*** SHOW DOWN ***
+anita830: shows [2d Qd] (two pair, Jacks and Sevens)
+Mr.E418: shows [5c As] (two pair, Aces and Jacks)
+PAARIAS: shows [9d Ac] (two pair, Aces and Jacks - Nine kicker)
+PAARIAS collected 1487 from pot
+*** SUMMARY ***
+Total pot 1487 | Rake 0 
+Board [Ad 7s 7h Jh Jd]
+Seat 1: Mr.E418 showed [5c As] and lost with two pair, Aces and Jacks
+Seat 2: kiki.lozano folded before Flop (didn't bet)
+Seat 3: PAARIAS (button) showed [9d Ac] and won (1487) with two pair, Aces and Jacks
+Seat 4: hurrybote (small blind) folded before Flop
+Seat 5: anita830 (big blind) showed [2d Qd] and lost with two pair, Jacks and Sevens
+Seat 6: PróximaMidnight folded before Flop (didn't bet)
+Seat 7: MOÑOROJO2000 folded before Flop (didn't bet)
+Seat 8: WillWalker783 folded before Flop (didn't bet)
+Seat 9: jijiji76 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #206624949068: Tournament #2742423452, 8700+1300 Hold'em No Limit - Level VII (125/250) - 2019/11/28 22:37:17 ET
+Table '2742423452 15' 9-max Seat #4 is the button
+Seat 1: Mr.E418 (11284 in chips) 
+Seat 2: kiki.lozano (1868 in chips) is sitting out
+Seat 3: PAARIAS (1487 in chips) 
+Seat 4: hurrybote (4425 in chips) 
+Seat 5: anita830 (596 in chips) 
+Seat 6: PróximaMidnight (5595 in chips) 
+Seat 7: MOÑOROJO2000 (1738 in chips) is sitting out
+Seat 8: WillWalker783 (5467 in chips) 
+Seat 9: jijiji76 (795 in chips) is sitting out
+Mr.E418: posts the ante 25
+kiki.lozano: posts the ante 25
+PAARIAS: posts the ante 25
+hurrybote: posts the ante 25
+anita830: posts the ante 25
+PróximaMidnight: posts the ante 25
+MOÑOROJO2000: posts the ante 25
+WillWalker783: posts the ante 25
+jijiji76: posts the ante 25
+anita830: posts small blind 125
+PróximaMidnight: posts big blind 250
+*** HOLE CARDS ***
+Dealt to hurrybote [Qh Kh]
+MOÑOROJO2000: folds 
+WillWalker783: folds 
+jijiji76: folds 
+Mr.E418: folds 
+kiki.lozano: folds 
+PAARIAS: folds 
+hurrybote: raises 250 to 500
+anita830: raises 71 to 571 and is all-in
+PróximaMidnight: calls 321
+hurrybote: calls 71
+*** FLOP *** [3d 2s Kc]
+PróximaMidnight: checks 
+kiki.lozano is disconnected 
+hurrybote: bets 750
+PróximaMidnight: calls 750
+*** TURN *** [3d 2s Kc] [7h]
+PróximaMidnight: checks 
+hurrybote: bets 2000
+PróximaMidnight: folds 
+Uncalled bet (2000) returned to hurrybote
+*** RIVER *** [3d 2s Kc 7h] [Ac]
+*** SHOW DOWN ***
+hurrybote: shows [Qh Kh] (a pair of Kings)
+hurrybote collected 1500 from side pot
+anita830: shows [Qs 8d] (high card Ace)
+hurrybote collected 1938 from main pot
+anita830 finished the tournament in 205th place
+*** SUMMARY ***
+Total pot 3438 Main pot 1938. Side pot 1500. | Rake 0 
+Board [3d 2s Kc 7h Ac]
+Seat 1: Mr.E418 folded before Flop (didn't bet)
+Seat 2: kiki.lozano folded before Flop (didn't bet)
+Seat 3: PAARIAS folded before Flop (didn't bet)
+Seat 4: hurrybote (button) showed [Qh Kh] and won (3438) with a pair of Kings
+Seat 5: anita830 (small blind) showed [Qs 8d] and lost with high card Ace
+Seat 6: PróximaMidnight (big blind) folded on the Turn
+Seat 7: MOÑOROJO2000 folded before Flop (didn't bet)
+Seat 8: WillWalker783 folded before Flop (didn't bet)
+Seat 9: jijiji76 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #206624961078: Tournament #2742423452, 8700+1300 Hold'em No Limit - Level VII (125/250) - 2019/11/28 22:38:15 ET
+Table '2742423452 15' 9-max Seat #6 is the button
+Seat 1: Mr.E418 (11259 in chips) 
+Seat 2: kiki.lozano (1843 in chips) is sitting out
+Seat 3: PAARIAS (1462 in chips) 
+Seat 4: hurrybote (6517 in chips) 
+Seat 6: PróximaMidnight (4249 in chips) 
+Seat 7: MOÑOROJO2000 (1713 in chips) is sitting out
+Seat 8: WillWalker783 (5442 in chips) 
+Seat 9: jijiji76 (770 in chips) is sitting out
+Mr.E418: posts the ante 25
+kiki.lozano: posts the ante 25
+PAARIAS: posts the ante 25
+hurrybote: posts the ante 25
+PróximaMidnight: posts the ante 25
+MOÑOROJO2000: posts the ante 25
+WillWalker783: posts the ante 25
+jijiji76: posts the ante 25
+MOÑOROJO2000: posts small blind 125
+WillWalker783: posts big blind 250
+*** HOLE CARDS ***
+Dealt to hurrybote [9h As]
+jijiji76: folds 
+Mr.E418: folds 
+kiki.lozano: folds 
+PAARIAS: folds 
+hurrybote: folds 
+PróximaMidnight: calls 250
+MOÑOROJO2000: folds 
+WillWalker783: checks 
+*** FLOP *** [2d 6d Jd]
+WillWalker783: checks 
+PróximaMidnight: checks 
+*** TURN *** [2d 6d Jd] [7s]
+WillWalker783: checks 
+PróximaMidnight: checks 
+*** RIVER *** [2d 6d Jd 7s] [Qc]
+WillWalker783: checks 
+PróximaMidnight: checks 
+*** SHOW DOWN ***
+WillWalker783: shows [9s 4d] (high card Queen)
+PróximaMidnight: shows [8d Ac] (high card Ace)
+PróximaMidnight collected 825 from pot
+*** SUMMARY ***
+Total pot 825 | Rake 0 
+Board [2d 6d Jd 7s Qc]
+Seat 1: Mr.E418 folded before Flop (didn't bet)
+Seat 2: kiki.lozano folded before Flop (didn't bet)
+Seat 3: PAARIAS folded before Flop (didn't bet)
+Seat 4: hurrybote folded before Flop (didn't bet)
+Seat 6: PróximaMidnight (button) showed [8d Ac] and won (825) with high card Ace
+Seat 7: MOÑOROJO2000 (small blind) folded before Flop
+Seat 8: WillWalker783 (big blind) showed [9s 4d] and lost with high card Queen
+Seat 9: jijiji76 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #206624969140: Tournament #2742423452, 8700+1300 Hold'em No Limit - Level VII (125/250) - 2019/11/28 22:38:54 ET
+Table '2742423452 15' 9-max Seat #7 is the button
+Seat 1: Mr.E418 (11234 in chips) 
+Seat 2: kiki.lozano (1818 in chips) is sitting out
+Seat 3: PAARIAS (1437 in chips) 
+Seat 4: hurrybote (6492 in chips) 
+Seat 5: bobbyc909 (7025 in chips) 
+Seat 6: PróximaMidnight (4799 in chips) 
+Seat 7: MOÑOROJO2000 (1563 in chips) is sitting out
+Seat 8: WillWalker783 (5167 in chips) 
+Seat 9: jijiji76 (745 in chips) is sitting out
+Mr.E418: posts the ante 25
+kiki.lozano: posts the ante 25
+PAARIAS: posts the ante 25
+hurrybote: posts the ante 25
+bobbyc909: posts the ante 25
+PróximaMidnight: posts the ante 25
+MOÑOROJO2000: posts the ante 25
+WillWalker783: posts the ante 25
+jijiji76: posts the ante 25
+WillWalker783: posts small blind 125
+jijiji76: posts big blind 250
+*** HOLE CARDS ***
+Dealt to hurrybote [8d 3d]
+Mr.E418: calls 250
+kiki.lozano: folds 
+PAARIAS: folds 
+hurrybote: folds 
+bobbyc909: raises 1100 to 1350
+PróximaMidnight: folds 
+MOÑOROJO2000: folds 
+WillWalker783: folds 
+jijiji76: folds 
+Mr.E418: folds 
+Uncalled bet (1100) returned to bobbyc909
+bobbyc909 collected 1100 from pot
+bobbyc909: doesn't show hand 
+*** SUMMARY ***
+Total pot 1100 | Rake 0 
+Seat 1: Mr.E418 folded before Flop
+Seat 2: kiki.lozano folded before Flop (didn't bet)
+Seat 3: PAARIAS folded before Flop (didn't bet)
+Seat 4: hurrybote folded before Flop (didn't bet)
+Seat 5: bobbyc909 collected (1100)
+Seat 6: PróximaMidnight folded before Flop (didn't bet)
+Seat 7: MOÑOROJO2000 (button) folded before Flop (didn't bet)
+Seat 8: WillWalker783 (small blind) folded before Flop
+Seat 9: jijiji76 (big blind) folded before Flop
+
+
+
+PokerStars Hand #206624973195: Tournament #2742423452, 8700+1300 Hold'em No Limit - Level VII (125/250) - 2019/11/28 22:39:13 ET
+Table '2742423452 15' 9-max Seat #8 is the button
+Seat 1: Mr.E418 (10959 in chips) 
+Seat 2: kiki.lozano (1793 in chips) is sitting out
+Seat 3: PAARIAS (1412 in chips) 
+Seat 4: hurrybote (6467 in chips) 
+Seat 5: bobbyc909 (7850 in chips) 
+Seat 6: PróximaMidnight (4774 in chips) 
+Seat 7: MOÑOROJO2000 (1538 in chips) is sitting out
+Seat 8: WillWalker783 (5017 in chips) 
+Seat 9: jijiji76 (470 in chips) is sitting out
+Mr.E418: posts the ante 25
+kiki.lozano: posts the ante 25
+PAARIAS: posts the ante 25
+hurrybote: posts the ante 25
+bobbyc909: posts the ante 25
+PróximaMidnight: posts the ante 25
+MOÑOROJO2000: posts the ante 25
+WillWalker783: posts the ante 25
+jijiji76: posts the ante 25
+jijiji76: posts small blind 125
+Mr.E418: posts big blind 250
+*** HOLE CARDS ***
+Dealt to hurrybote [3d 4d]
+kiki.lozano: folds 
+PAARIAS: folds 
+hurrybote: folds 
+bobbyc909: raises 500 to 750
+PróximaMidnight: folds 
+MOÑOROJO2000: folds 
+WillWalker783: folds 
+jijiji76: folds 
+Mr.E418: calls 500
+*** FLOP *** [7d Kc 4h]
+Mr.E418: checks 
+bobbyc909: bets 1000
+Mr.E418: folds 
+Uncalled bet (1000) returned to bobbyc909
+bobbyc909 collected 1850 from pot
+bobbyc909: doesn't show hand 
+*** SUMMARY ***
+Total pot 1850 | Rake 0 
+Board [7d Kc 4h]
+Seat 1: Mr.E418 (big blind) folded on the Flop
+Seat 2: kiki.lozano folded before Flop (didn't bet)
+Seat 3: PAARIAS folded before Flop (didn't bet)
+Seat 4: hurrybote folded before Flop (didn't bet)
+Seat 5: bobbyc909 collected (1850)
+Seat 6: PróximaMidnight folded before Flop (didn't bet)
+Seat 7: MOÑOROJO2000 folded before Flop (didn't bet)
+Seat 8: WillWalker783 (button) folded before Flop (didn't bet)
+Seat 9: jijiji76 (small blind) folded before Flop
+
+
+
+PokerStars Hand #206624978895: Tournament #2742423452, 8700+1300 Hold'em No Limit - Level VII (125/250) - 2019/11/28 22:39:41 ET
+Table '2742423452 15' 9-max Seat #9 is the button
+Seat 1: Mr.E418 (10184 in chips) 
+Seat 2: kiki.lozano (1768 in chips) is sitting out
+Seat 3: PAARIAS (1387 in chips) 
+Seat 4: hurrybote (6442 in chips) 
+Seat 5: bobbyc909 (8925 in chips) 
+Seat 6: PróximaMidnight (4749 in chips) 
+Seat 7: MOÑOROJO2000 (1513 in chips) is sitting out
+Seat 8: WillWalker783 (4992 in chips) 
+Seat 9: jijiji76 (320 in chips) is sitting out
+Mr.E418: posts the ante 25
+kiki.lozano: posts the ante 25
+PAARIAS: posts the ante 25
+hurrybote: posts the ante 25
+bobbyc909: posts the ante 25
+PróximaMidnight: posts the ante 25
+MOÑOROJO2000: posts the ante 25
+WillWalker783: posts the ante 25
+jijiji76: posts the ante 25
+Mr.E418: posts small blind 125
+kiki.lozano: posts big blind 250
+*** HOLE CARDS ***
+Dealt to hurrybote [4h 7h]
+PAARIAS: calls 250
+hurrybote: calls 250
+bobbyc909: raises 500 to 750
+PróximaMidnight: folds 
+MOÑOROJO2000: folds 
+WillWalker783: calls 750
+jijiji76: folds 
+Mr.E418: folds 
+kiki.lozano: folds 
+PAARIAS: calls 500
+hurrybote: folds 
+*** FLOP *** [Jc 9d Ts]
+PAARIAS: checks 
+bobbyc909: checks 
+WillWalker783: checks 
+*** TURN *** [Jc 9d Ts] [3h]
+PAARIAS: bets 500
+bobbyc909: calls 500
+WillWalker783: calls 500
+*** RIVER *** [Jc 9d Ts 3h] [Kc]
+PAARIAS: bets 112 and is all-in
+bobbyc909: calls 112
+WillWalker783: calls 112
+*** SHOW DOWN ***
+PAARIAS: shows [2c Ah] (high card Ace)
+bobbyc909: shows [5c 9c] (a pair of Nines)
+WillWalker783: shows [Ad Ks] (a pair of Kings)
+WillWalker783 collected 4936 from pot
+PAARIAS finished the tournament in 183rd place
+*** SUMMARY ***
+Total pot 4936 | Rake 0 
+Board [Jc 9d Ts 3h Kc]
+Seat 1: Mr.E418 (small blind) folded before Flop
+Seat 2: kiki.lozano (big blind) folded before Flop
+Seat 3: PAARIAS showed [2c Ah] and lost with high card Ace
+Seat 4: hurrybote folded before Flop
+Seat 5: bobbyc909 showed [5c 9c] and lost with a pair of Nines
+Seat 6: PróximaMidnight folded before Flop (didn't bet)
+Seat 7: MOÑOROJO2000 folded before Flop (didn't bet)
+Seat 8: WillWalker783 showed [Ad Ks] and won (4936) with a pair of Kings
+Seat 9: jijiji76 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #206624990543: Tournament #2742423452, 8700+1300 Hold'em No Limit - Level VIII (150/300) - 2019/11/28 22:40:38 ET
+Table '2742423452 15' 9-max Seat #1 is the button
+Seat 1: Mr.E418 (10034 in chips) 
+Seat 2: kiki.lozano (1493 in chips) is sitting out
+Seat 4: hurrybote (6167 in chips) 
+Seat 5: bobbyc909 (7538 in chips) 
+Seat 6: PróximaMidnight (4724 in chips) 
+Seat 7: MOÑOROJO2000 (1488 in chips) is sitting out
+Seat 8: WillWalker783 (8541 in chips) 
+Seat 9: jijiji76 (295 in chips) is sitting out
+Mr.E418: posts the ante 25
+kiki.lozano: posts the ante 25
+hurrybote: posts the ante 25
+bobbyc909: posts the ante 25
+PróximaMidnight: posts the ante 25
+MOÑOROJO2000: posts the ante 25
+WillWalker783: posts the ante 25
+jijiji76: posts the ante 25
+kiki.lozano: posts small blind 150
+hurrybote: posts big blind 300
+*** HOLE CARDS ***
+Dealt to hurrybote [4c Qc]
+bobbyc909: raises 950 to 1250
+PróximaMidnight: folds 
+MOÑOROJO2000: folds 
+WillWalker783: calls 1250
+jijiji76: folds 
+Mr.E418: calls 1250
+kiki.lozano: folds 
+hurrybote: calls 950
+*** FLOP *** [4h 5h 9d]
+hurrybote: bets 2100
+bobbyc909: raises 4163 to 6263 and is all-in
+WillWalker783: folds 
+Mr.E418: folds 
+hurrybote: calls 2792 and is all-in
+Uncalled bet (1371) returned to bobbyc909
+*** TURN *** [4h 5h 9d] [Js]
+*** RIVER *** [4h 5h 9d Js] [3c]
+*** SHOW DOWN ***
+hurrybote: shows [4c Qc] (a pair of Fours)
+bobbyc909: shows [Ac Ad] (a pair of Aces)
+bobbyc909 collected 15134 from pot
+hurrybote finished the tournament in 176th place
+*** SUMMARY ***
+Total pot 15134 | Rake 0 
+Board [4h 5h 9d Js 3c]
+Seat 1: Mr.E418 (button) folded on the Flop
+Seat 2: kiki.lozano (small blind) folded before Flop
+Seat 4: hurrybote (big blind) showed [4c Qc] and lost with a pair of Fours
+Seat 5: bobbyc909 showed [Ac Ad] and won (15134) with a pair of Aces
+Seat 6: PróximaMidnight folded before Flop (didn't bet)
+Seat 7: MOÑOROJO2000 folded before Flop (didn't bet)
+Seat 8: WillWalker783 folded on the Flop
+Seat 9: jijiji76 folded before Flop (didn't bet)
+
+
+

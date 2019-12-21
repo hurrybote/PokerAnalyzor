@@ -16,7 +16,6 @@ import { MatTabsModule } from '@angular/material/tabs';
 
 import { UploadComponent } from './upload/upload.component';
 import { AnalysisComponent } from './analysis/analysis.component';
-import { TopComponent } from './top/top.component';
 import { PageNotFoundComponent } from './error/page-not-found/page-not-found.component';
 import { HttpClientModule } from '@angular/common/http';
 import { OddsSimulationComponent } from './odds-simulation/odds-simulation.component';
@@ -27,7 +26,6 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     AppComponent,
     UploadComponent,
     AnalysisComponent,
-    TopComponent,
     PageNotFoundComponent,
     OddsSimulationComponent
   ],

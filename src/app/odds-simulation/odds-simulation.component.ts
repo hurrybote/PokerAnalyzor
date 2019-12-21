@@ -20,7 +20,7 @@ export class OddsSimulationComponent implements OnInit {
   public cardList: SmallCard[] = SMALL_CARD;
 
   public selectedPlayer: Players;
-  public selectedCard: SmallCard;
+  public selectedCard: number[] = new Array();
 
   constructor(
     public OddsService: OddsSimulationService,
@@ -50,14 +50,30 @@ export class OddsSimulationComponent implements OnInit {
   select_player_num(value){
     this.players = this.OddsService.delete_ply(PLAYERS, value);
     // console.log(this.players);
-    console.log(this.players.length); 
+    // console.log(this.players.length); 
   }
 
   onClickCardImg(card){
-    this.selectedCard = card;
+    // console.log(card)
+    // セレクトされているカードの配列作成
+    this.selectedCard = this.OddsService.selectedcard_push_del(this.players, card, this.selectedPlayer, this.selectedCard);
+    // console.log(this.selectedCard);
+    // セレクトされているカードを非表示し，それ以外を表示する
+    // this.cardList[card.id]["display"]=1;
+    this.cardList = this.OddsService.on_off_display(this.selectedCard, this.cardList);
+
     this.players = this.OddsService.change_src_for_img(this.players, card.src, this.selectedPlayer);
-    console.log(card);
+    // console.log(card);
   }
+
+  // checkSelected(id){
+  //   // if(this.selectedCard.indexOf(id) > 0){
+  //   //   return true
+  //   // }else{
+  //   //   return false;
+  //   // }
+  //   console.log(id);
+  // }
 
   ngOnInit() {
   }
