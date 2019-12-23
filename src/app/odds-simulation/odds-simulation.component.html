@@ -12,7 +12,7 @@
     </div>
 
     <div id="players">
-        <div *ngFor="let pl of players" id="{{pl.name}}" (click)="onClickPop(pl)">
+        <div *ngFor="let pl of players" id="{{pl.name}}" (click)="onClickPop(pl, 0)">
             <img id="{{pl.name}}" style="width:80px;height:auto;" src="{{pl.left_src}}">
             <img id="{{pl.name}}" style="width:80px;height:auto;" src="{{pl.right_src}}">
         </div>
@@ -20,10 +20,10 @@
 
     <div id="board">
         <div id="preflop">
-            <img id="preflop" *ngFor="let pf of board.preflop_src" src="{{pf}}">
+            <img id="preflop" *ngFor="let pf of board.preflop_src" src="{{pf}}" (click)="onClickPop(board, 1)">
         </div>
-        <img id="turn" src="{{board.turn_src}}">
-        <img id="river" src="{{board.river_src}}">
+        <img id="turn" src="{{board.turn_src}}" (click)="onClickPop(board, 2)">
+        <img id="river" src="{{board.river_src}}" (click)="onClickPop(board, 3)">
     </div>
 
     <ng-template #trumpContent let-modal>
@@ -46,17 +46,17 @@
                         </div>
                     </ng-template>
                 </ngb-tab>
-                <ngb-tab title="Range">
+                <!-- <ngb-tab title="Range">
                     <ng-template ngbTabContent>
                         <div id="pick_hand" style="width: 400px; height:360px;background-color: white">
                             <p>作成中</p>
-                            <!-- <mat-grid-list style="width:360px" cols="13" rowHeight="20px">
+                            <mat-grid-list style="width:360px" cols="13" rowHeight="20px">
                                 <mat-grid-tile [style.background-color]="hand.color? 'greenyellow':'skyblue'" *ngFor="let hand of hand_pair" id="hand.name">{{ hand.name }}</mat-grid-tile>
                             </mat-grid-list>
-                            <mat-slider style="width:360px" thumbLabel tickInterval="1" min="0" max="100" [displayWith]="formatLabel" (input)="change_color($event)"></mat-slider>     -->
+                            <mat-slider style="width:360px" thumbLabel tickInterval="1" min="0" max="100" [displayWith]="formatLabel" (input)="change_color($event)"></mat-slider>    
                         </div>
                     </ng-template>
-                </ngb-tab>
+                </ngb-tab> -->
             </ngb-tabset>
         </div>
     </ng-template>

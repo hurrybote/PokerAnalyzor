@@ -90,6 +90,10 @@ export class OddsSimulationService {
     return players;
   }
 
+  change_src_for_board(){
+
+  }
+
   getArraySpliceNum(id){
     if(id === 1){
       return 0
@@ -128,6 +132,10 @@ export class OddsSimulationService {
     }
     // console.log(selectedCard);
     return selectedCard;
+  }
+
+  selectedboard_push_del(){
+    
   }
 
   on_off_display(selectedCard, cardList){

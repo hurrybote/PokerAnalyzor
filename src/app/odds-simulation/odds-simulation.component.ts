@@ -20,12 +20,15 @@ export class OddsSimulationComponent implements OnInit {
   public cardList: SmallCard[] = SMALL_CARD;
   public board: Board = BOARD;
   public selectedPlayer: Players;
+  public selectedBoard: Board;
   public selectedCard: number[] = new Array();
+
+  // playerがクリックされている場合はfalse，boardであればtrue
+  public click_flag = 0;
 
   constructor(
     public OddsService: OddsSimulationService,
     private modalService: NgbModal,
-
   ) {  }
 
   formatLabel(value: number) {
@@ -36,44 +39,48 @@ export class OddsSimulationComponent implements OnInit {
     this.hand_pair = this.OddsService.change_color_num(slider.value, this.hand_pair);
   }
 
-  onClickPop(pl){
-    this.selectedPlayer = pl;
-    console.log(this.selectedPlayer);
-    this.pop.nativeElement.click();
+  onClickPop(pl, f){
+    if(f === 0){
+      // boardの場合はclick_flagをtrueに
+      this.click_flag = 0;
+      this.selectedBoard = pl;
+      console.log(this.selectedBoard);
+      this.pop.nativeElement.click();
+    }else{
+      // playerの場合はclick_flagをfalseに
+      this.click_flag = f;
+      this.selectedPlayer = pl;
+      console.log(this.selectedPlayer);
+      this.pop.nativeElement.click();
+    }
+    
   }
 
   open_modal(content){
-    // this.modalService.open(content, {windowClass: 'dark-modal'});
     this.modalService.open(content)
   }
 
+  // プレイヤー数の変更
   select_player_num(value){
     this.players = this.OddsService.delete_ply(PLAYERS, value);
-    // console.log(this.players);
-    // console.log(this.players.length); 
   }
 
   onClickCardImg(card){
-    // console.log(card)
+    // console.log(this.players.length);
     // セレクトされているカードの配列作成
-    this.selectedCard = this.OddsService.selectedcard_push_del(this.players, card, this.selectedPlayer, this.selectedCard);
-    // console.log(this.selectedCard);
-    // セレクトされているカードを非表示し，それ以外を表示する
-    // this.cardList[card.id]["display"]=1;
-    this.cardList = this.OddsService.on_off_display(this.selectedCard, this.cardList);
-
-    this.players = this.OddsService.change_src_for_img(this.players, card.src, this.selectedPlayer);
-    // console.log(card);
+    if(this.click_flag == 0){
+      this.selectedCard = this.OddsService.selectedcard_push_del(this.players, card, this.selectedPlayer, this.selectedCard);
+      // セレクトされているカードを非表示し，それ以外を表示する
+      this.cardList = this.OddsService.on_off_display(this.selectedCard, this.cardList);
+      this.players = this.OddsService.change_src_for_img(this.players, card.src, this.selectedPlayer);
+    }else{
+      this.selectedBoard = this.OddsService.selectedboard_push_del(this.board, card, this.selectedBoard, this.click_flag);
+      this.cardList = this.OddsService.on_off_display(this.selectedBoard, this.cardList)
+      this.board = this.OddsService.change_src_for_board()
+    }
+    
+    console.log(this.selectedCard);
   }
-
-  // checkSelected(id){
-  //   // if(this.selectedCard.indexOf(id) > 0){
-  //   //   return true
-  //   // }else{
-  //   //   return false;
-  //   // }
-  //   console.log(id);
-  // }
 
   ngOnInit() {
   }
