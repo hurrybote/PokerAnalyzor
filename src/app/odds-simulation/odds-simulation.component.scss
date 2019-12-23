@@ -24,6 +24,40 @@ img.selected{
     display: none;
 }
 
+// div#board{
+//     position:absolute;
+//     top: 50vh;
+//     left: 40vw;
+// }
+
+div#preflop{
+    position:absolute;
+    top: 30vh;
+    left: 25vw;
+}
+
+img#preflop{
+    float:left;
+    width:120px;
+    height: auto;
+}
+
+img#turn{
+    position:absolute;
+    top: 30vh;
+    left: 50vw;
+    width:120px;
+    height: auto;
+}
+
+img#river{
+    position:absolute;
+    width:120px;
+    height: auto;
+    top: 30vh;
+    left: 60vw;
+}
+
 // div#pick_hand{
 //     padding: 0.5em 1em;
 //     margin: 2em 0;

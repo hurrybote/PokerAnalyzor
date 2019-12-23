@@ -2,7 +2,7 @@ import { Component, OnInit, ViewChild } from '@angular/core';
 import { HandPair, HAND_PAIR } from './hand-pair';
 import { OddsSimulationService } from './odds-simulation.service';
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
-import { Players, PLAYERS } from './players';
+import { Players, PLAYERS, Board, BOARD } from './players';
 import { SmallCard, SMALL_CARD } from './card';
 
 @Component({
@@ -18,7 +18,7 @@ export class OddsSimulationComponent implements OnInit {
   public players: Players[] = [PLAYERS[0]];
   public dirList: string[] = new Array();
   public cardList: SmallCard[] = SMALL_CARD;
-
+  public board: Board = BOARD;
   public selectedPlayer: Players;
   public selectedCard: number[] = new Array();
 

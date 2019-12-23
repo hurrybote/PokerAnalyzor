@@ -18,6 +18,14 @@
         </div>
     </div>
 
+    <div id="board">
+        <div id="preflop">
+            <img id="preflop" *ngFor="let pf of board.preflop_src" src="{{pf}}">
+        </div>
+        <img id="turn" src="{{board.turn_src}}">
+        <img id="river" src="{{board.river_src}}">
+    </div>
+
     <ng-template #trumpContent let-modal>
         <div class="modal-header">
             <h4>Select Hands</h4>

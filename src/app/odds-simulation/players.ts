@@ -1,5 +1,3 @@
-
-
 export class Players {
     name: string;
     id: number;
@@ -8,6 +6,15 @@ export class Players {
     // このフラグが0の時left_srcの画像を変更
     // このフラグが1の時right_srcの画像を変更
     pic_flag: number;
+}
+
+export class Board {
+    name: string;
+    id: number;
+    preflop_src: string[];
+    turn_src: string;
+    river_src: string;
+    flag: number;
 }
 
 export const PLAYERS: Players[] = [
@@ -21,3 +28,14 @@ export const PLAYERS: Players[] = [
     {id: 8, name: "ply8", left_src: "assets/trump_space.png", right_src: "assets/trump_space.png", pic_flag: 0},
     {id: 9, name: "ply9", left_src: "assets/trump_space.png", right_src: "assets/trump_space.png", pic_flag: 0}
 ]
+
+export const BOARD: Board = {
+    name: "board", id: 0, preflop_src:[
+        "assets/trump_space.png",
+        "assets/trump_space.png",
+        "assets/trump_space.png",
+    ],
+    turn_src: "assets/trump_space.png",
+    river_src: "assets/trump_space.png",
+    flag: 0
+}
