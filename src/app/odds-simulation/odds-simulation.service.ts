@@ -8,6 +8,7 @@ import { Players } from './players';
 export class OddsSimulationService {
   private max_ratio = this.get_max();
   private min_ratio = this.get_min();
+  private preflop_flag = 0;
 
   constructor() { }
 
@@ -90,8 +91,18 @@ export class OddsSimulationService {
     return players;
   }
 
-  change_src_for_board(){
+  change_src_for_board(board, src, click_flag){
+    src = src.replace("small_trump", "trump");
+    console.log(this.preflop_flag);
+    if(click_flag === 1){
+      board.preflop_src[this.preflop_flag] = src;
+    }else if(click_flag === 2){
+      board.turn_src = src;
+    }else{
+      board.river_src = src;
+    }
 
+    return board;
   }
 
   getArraySpliceNum(id){
@@ -134,11 +145,50 @@ export class OddsSimulationService {
     return selectedCard;
   }
 
-  selectedboard_push_del(){
-    
+  add_preflop_flag(flag){
+    if(flag > 1){
+      flag = 0;
+    }else{
+      flag += 1;
+    }
+
+    return flag;
   }
 
-  on_off_display(selectedCard, cardList){
+  selectedboard_push_del(board, card, board_flag, selectedBoard){
+    card.src = card.src.replace("small_trump", "trump");
+    console.log(this.preflop_flag);
+    // boardフラグが1の場合フロップ
+    // 2の場合ターン
+    // 3の場合リバー
+    if(board_flag === 1){
+      if(board.preflop_src[this.preflop_flag] != "assets/trump_space.png"){
+        selectedBoard.splice(this.preflop_flag, 1, card.id);
+      }else{
+        selectedBoard.splice(this.preflop_flag, 0, card.id);
+        // console.log(this.preflop_flag);
+      }
+      this.preflop_flag = this.add_preflop_flag(this.preflop_flag);
+    }else if(board_flag === 2){
+      if(board.turn_src != "assets/trump_space.png"){
+        selectedBoard.splice(3, 1, card.id);
+      }else{
+        selectedBoard.splice(3, 0, card.id);
+      }
+    }else{
+      // try,catchでフロップが選択されていない状態でターンとリバーを選択された際にエラーを出す
+      if(board.river_src != "assets/trump_space.png"){
+        selectedBoard.splice(4, 1, card.id);
+      }else{
+        selectedBoard.splice(4, 0, card.id);
+      }
+    }
+    // console.log(selectedBoard);
+
+    return selectedBoard;
+  }
+
+  on_off_display(selectedCard, selectedBoard, cardList){
     for(let i=0; i<52; i++){
       // console.log(selectedCard.indexOf(cardList[i]["id"]));
       if(selectedCard.some((value) => {
@@ -146,9 +196,15 @@ export class OddsSimulationService {
       })){
         cardList[i]["display"]=1;
         cardList[i]["src"] = cardList[i]["src"].replace("small_trump", "trump");
+      }else if(selectedBoard.some((value) => {
+        // console.log(selectedBoard);
+        return cardList[i]["id"] === value;
+      })){
+        cardList[i]["display"]=1;
+        cardList[i]["src"] = cardList[i]["src"].replace("small_trump", "trump");
       }else{
         cardList[i]["display"]=0;
-        console.log(cardList[i]["src"].indexOf("small_trump"))
+        // console.log(cardList[i]["src"].indexOf("small_trump"))
         if(cardList[i]["src"].indexOf("small_trump") === -1){
           cardList[i]["src"] = cardList[i]["src"].replace("trump", "small_trump");  
         }

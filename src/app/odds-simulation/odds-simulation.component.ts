@@ -20,7 +20,7 @@ export class OddsSimulationComponent implements OnInit {
   public cardList: SmallCard[] = SMALL_CARD;
   public board: Board = BOARD;
   public selectedPlayer: Players;
-  public selectedBoard: Board;
+  public selectedBoard: number[] = new Array();
   public selectedCard: number[] = new Array();
 
   // playerがクリックされている場合はfalse，boardであればtrue
@@ -41,16 +41,16 @@ export class OddsSimulationComponent implements OnInit {
 
   onClickPop(pl, f){
     if(f === 0){
-      // boardの場合はclick_flagをtrueに
-      this.click_flag = 0;
-      this.selectedBoard = pl;
-      console.log(this.selectedBoard);
-      this.pop.nativeElement.click();
-    }else{
-      // playerの場合はclick_flagをfalseに
+      // playerの場合はclick_flagを0に
       this.click_flag = f;
       this.selectedPlayer = pl;
-      console.log(this.selectedPlayer);
+      // console.log(this.selectedPlayer);
+      this.pop.nativeElement.click();
+    }else{
+      // boardの場合はclick_flagを1,2,3に
+      this.click_flag = f;
+      // this.selectedBoard = pl;
+      // console.log(this.selectedBoard);
       this.pop.nativeElement.click();
     }
     
@@ -71,15 +71,16 @@ export class OddsSimulationComponent implements OnInit {
     if(this.click_flag == 0){
       this.selectedCard = this.OddsService.selectedcard_push_del(this.players, card, this.selectedPlayer, this.selectedCard);
       // セレクトされているカードを非表示し，それ以外を表示する
-      this.cardList = this.OddsService.on_off_display(this.selectedCard, this.cardList);
+      this.cardList = this.OddsService.on_off_display(this.selectedCard, this.selectedBoard, this.cardList);
       this.players = this.OddsService.change_src_for_img(this.players, card.src, this.selectedPlayer);
     }else{
-      this.selectedBoard = this.OddsService.selectedboard_push_del(this.board, card, this.selectedBoard, this.click_flag);
-      this.cardList = this.OddsService.on_off_display(this.selectedBoard, this.cardList)
-      this.board = this.OddsService.change_src_for_board()
+      this.selectedBoard = this.OddsService.selectedboard_push_del(this.board, card, this.click_flag, this.selectedBoard);
+      this.cardList = this.OddsService.on_off_display(this.selectedCard, this.selectedBoard, this.cardList);
+      this.board = this.OddsService.change_src_for_board(this.board, card.src, this.click_flag);
+      // console.log(this.board.preflop_src);
     }
     
-    console.log(this.selectedCard);
+    // console.log(this.selectedCard);
   }
 
   ngOnInit() {

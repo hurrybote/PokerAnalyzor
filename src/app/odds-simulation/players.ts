@@ -14,7 +14,6 @@ export class Board {
     preflop_src: string[];
     turn_src: string;
     river_src: string;
-    flag: number;
 }
 
 export const PLAYERS: Players[] = [
@@ -36,6 +35,5 @@ export const BOARD: Board = {
         "assets/trump_space.png",
     ],
     turn_src: "assets/trump_space.png",
-    river_src: "assets/trump_space.png",
-    flag: 0
+    river_src: "assets/trump_space.png"
 }
