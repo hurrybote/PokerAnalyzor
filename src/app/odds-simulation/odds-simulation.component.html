@@ -8,8 +8,12 @@
             <div class="dropdown-menu" ngbDropdownMenu>
                 <button ngbDropdownItem *ngFor="let pl of plnum" value="pl" (click)="select_player_num(pl)">{{ pl }}</button>
             </div>
+            <div class="calculate-btn">
+                <button mat-raised-button color="primary" (click)="calculate_ratio()">Calculate Ratio</button>
+            </div>
         </div>
     </div>
+    
 
     <div id="players">
         <div *ngFor="let pl of players" id="{{pl.name}}" (click)="onClickPop(pl, 0)">

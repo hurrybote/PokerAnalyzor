@@ -14,8 +14,8 @@ import { SmallCard, SMALL_CARD } from './card';
 export class OddsSimulationComponent implements OnInit {
   @ViewChild('pop', {static:false}) pop;
   public hand_pair: HandPair[] = HAND_PAIR;
-  public plnum: number[] = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-  public players: Players[] = [PLAYERS[0]];
+  public plnum: number[] = [2, 3, 4, 5, 6, 7, 8, 9];
+  public players: Players[] = [PLAYERS[0],PLAYERS[1]];
   public dirList: string[] = new Array();
   public cardList: SmallCard[] = SMALL_CARD;
   public board: Board = BOARD;
@@ -56,6 +56,11 @@ export class OddsSimulationComponent implements OnInit {
     
   }
 
+  calculate_ratio(){
+    // console.log("計算！");
+    this.OddsService.calculate_ratio(this.players, this.board);
+  }
+
   open_modal(content){
     this.modalService.open(content)
   }
@@ -63,6 +68,7 @@ export class OddsSimulationComponent implements OnInit {
   // プレイヤー数の変更
   select_player_num(value){
     this.players = this.OddsService.delete_ply(PLAYERS, value);
+    // すべての表示カードをリセットする
   }
 
   onClickCardImg(card){
@@ -77,6 +83,9 @@ export class OddsSimulationComponent implements OnInit {
       this.selectedBoard = this.OddsService.selectedboard_push_del(this.board, card, this.click_flag, this.selectedBoard);
       this.cardList = this.OddsService.on_off_display(this.selectedCard, this.selectedBoard, this.cardList);
       this.board = this.OddsService.change_src_for_board(this.board, card.src, this.click_flag);
+      if(this.click_flag == 1){
+        this.OddsService.add_preflop_flag();
+      }
       // console.log(this.board.preflop_src);
     }
     

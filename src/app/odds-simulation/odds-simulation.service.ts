@@ -1,6 +1,9 @@
 import { Injectable } from '@angular/core';
 import { HAND_PAIR, HandPair } from './hand-pair';
 import { Players } from './players';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
+import { Observable } from 'rxjs';
+
 
 @Injectable({
   providedIn: 'root'
@@ -10,7 +13,13 @@ export class OddsSimulationService {
   private min_ratio = this.get_min();
   private preflop_flag = 0;
 
-  constructor() { }
+  private httpOptions: any = {
+    headers: new HttpHeaders({
+      'Content-type': 'application/json',
+    })
+  }
+
+  constructor(private http: HttpClient) { }
 
   public change_color_num(value, hand_pair): HandPair[]{
     // console.log(hand_pair);
@@ -93,7 +102,7 @@ export class OddsSimulationService {
 
   change_src_for_board(board, src, click_flag){
     src = src.replace("small_trump", "trump");
-    console.log(this.preflop_flag);
+    // console.log(this.preflop_flag);
     if(click_flag === 1){
       board.preflop_src[this.preflop_flag] = src;
     }else if(click_flag === 2){
@@ -145,19 +154,18 @@ export class OddsSimulationService {
     return selectedCard;
   }
 
-  add_preflop_flag(flag){
-    if(flag > 1){
-      flag = 0;
+  add_preflop_flag(){
+    // console.log(flag);
+    if(this.preflop_flag > 1){
+      this.preflop_flag = 0;
     }else{
-      flag += 1;
+      this.preflop_flag += 1;
     }
-
-    return flag;
   }
 
   selectedboard_push_del(board, card, board_flag, selectedBoard){
     card.src = card.src.replace("small_trump", "trump");
-    console.log(this.preflop_flag);
+    // console.log(this.preflop_flag);
     // boardフラグが1の場合フロップ
     // 2の場合ターン
     // 3の場合リバー
@@ -168,7 +176,6 @@ export class OddsSimulationService {
         selectedBoard.splice(this.preflop_flag, 0, card.id);
         // console.log(this.preflop_flag);
       }
-      this.preflop_flag = this.add_preflop_flag(this.preflop_flag);
     }else if(board_flag === 2){
       if(board.turn_src != "assets/trump_space.png"){
         selectedBoard.splice(3, 1, card.id);
@@ -212,6 +219,26 @@ export class OddsSimulationService {
     }
     // console.log(cardList);
     return cardList;
+  }
+
+  calculate_ratio(player, board): Promise<any>{
+    console.log(player);
+    console.log(board);
+
+    let card_dict = {
+      player: player, board: board
+    }
+
+    return this.http.post(
+      'http://localhost:33565/calc',
+      card_dict,
+      {
+        headers: this.httpOptions, responseType:'json'
+      })
+      .toPromise()
+      .then((res) => {
+        console.log(res);
+      })
   }
 
 }

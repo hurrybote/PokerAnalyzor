@@ -22,7 +22,7 @@ export class UploadService {
     // バック側から送られてくるレスポンスがJSONでない場合
     // responseTypeを設定してあげないとダメ
     return this.http.post(
-      "http://localhost:8808/upload/"+filename,
+      "http://localhost:33565/upload/"+filename,
       handlog_data,
       {
         headers: this.httpOptions, responseType: 'text'
