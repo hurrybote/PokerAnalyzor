@@ -1,9 +1,11 @@
-import { Component, OnInit, ViewChild } from '@angular/core';
+import { Component, OnInit, ViewChild, OnChanges } from '@angular/core';
 import { HandPair, HAND_PAIR } from './hand-pair';
 import { OddsSimulationService } from './odds-simulation.service';
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 import { Players, PLAYERS, Board, BOARD } from './players';
 import { SmallCard, SMALL_CARD } from './card';
+import { WinRatio, WIN_RATIO } from './hand-pair';
+import { Observable } from 'rxjs';
 
 @Component({
   selector: 'app-odds-simulation',
@@ -16,15 +18,16 @@ export class OddsSimulationComponent implements OnInit {
   public hand_pair: HandPair[] = HAND_PAIR;
   public plnum: number[] = [2, 3, 4, 5, 6, 7, 8, 9];
   public players: Players[] = [PLAYERS[0],PLAYERS[1]];
-  public dirList: string[] = new Array();
   public cardList: SmallCard[] = SMALL_CARD;
   public board: Board = BOARD;
   public selectedPlayer: Players;
   public selectedBoard: number[] = new Array();
   public selectedCard: number[] = new Array();
-
+  public ratio: Promise<WinRatio[]>;
   // playerがクリックされている場合はfalse，boardであればtrue
   public click_flag = 0;
+  public win_ratio_flag = 0;
+  public player_number = 2;
 
   constructor(
     public OddsService: OddsSimulationService,
@@ -56,9 +59,27 @@ export class OddsSimulationComponent implements OnInit {
     
   }
 
+  clear_all(){
+    this.selectedBoard = new Array();
+    this.click_flag = 0;
+    this.win_ratio_flag = 0;
+    this.players = this.OddsService.clear_src_for_player(this.players);
+    this.board = this.OddsService.clear_src_for_board(this.board);
+    this.hand_pair = HAND_PAIR;
+    this.selectedCard = new Array();
+    this.cardList = this.OddsService.on_off_display(this.selectedCard, this.selectedBoard, this.cardList);
+  }
+
   calculate_ratio(){
     // console.log("計算！");
-    this.OddsService.calculate_ratio(this.players, this.board);
+    this.OddsService.calculate_ratio(this.players, this.board)
+    .then((res)=>{
+      this.ratio = res;
+      for(let i=0;i<this.players.length;i++){
+        this.players[i]["ratio"] = this.ratio[i];
+      }
+      this.win_ratio_flag = 1;
+    });
   }
 
   open_modal(content){
@@ -67,6 +88,7 @@ export class OddsSimulationComponent implements OnInit {
 
   // プレイヤー数の変更
   select_player_num(value){
+    this.player_number = value;
     this.players = this.OddsService.delete_ply(PLAYERS, value);
     // すべての表示カードをリセットする
   }
@@ -78,11 +100,13 @@ export class OddsSimulationComponent implements OnInit {
       this.selectedCard = this.OddsService.selectedcard_push_del(this.players, card, this.selectedPlayer, this.selectedCard);
       // セレクトされているカードを非表示し，それ以外を表示する
       this.cardList = this.OddsService.on_off_display(this.selectedCard, this.selectedBoard, this.cardList);
-      this.players = this.OddsService.change_src_for_img(this.players, card.src, this.selectedPlayer);
+      this.players = this.OddsService.change_src_for_img(this.players, card, this.selectedPlayer);
+      // console.log(this.players);
     }else{
       this.selectedBoard = this.OddsService.selectedboard_push_del(this.board, card, this.click_flag, this.selectedBoard);
       this.cardList = this.OddsService.on_off_display(this.selectedCard, this.selectedBoard, this.cardList);
-      this.board = this.OddsService.change_src_for_board(this.board, card.src, this.click_flag);
+      this.board = this.OddsService.change_src_for_board(this.board, card, this.click_flag);
+      // console.log(this.board);
       if(this.click_flag == 1){
         this.OddsService.add_preflop_flag();
       }
@@ -94,9 +118,5 @@ export class OddsSimulationComponent implements OnInit {
 
   ngOnInit() {
   }
-
-  
-
-
   
 }

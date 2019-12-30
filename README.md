@@ -1,27 +1,31 @@
+![スクリーンショット](screenshot.png)
+
 # PokerAnalyzor
+これはポーカーのテキサスホールデムにおける勝率計算のWEBアプリです．
+本アプリを使用するにあたりフロントとバックで開発サーバを立てる必要があります．
+以下それぞれの起動方法です
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.6.
+## PokerAnalyzor(FLONT)
+Angular-cli ver.8.0.6
 
-## Development server
+### Development server
+`npm install`を実行して起動に必要なモジュールのインストールをしてください．
+`ng serve`を実行してください．
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+### How To Use
+ply1から順番にプレイヤーに配られたスターティングハンドを入力し，左上のCalculateボタンを押します．
 
-## Code scaffolding
+## PokerAnalyzor(BACK)
+Python ver.3.6.5
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Development server
+serverディレクトリ内のrequirement.txt を `pip install -r requirement.txt`でインストール
+`python app.py`を実行してください
 
-## Build
+## それぞれのディレクトリの説明
+- server以下
+    - PythonのAPIサーバ関連のコードが記述されています
+- src以下
+    - Angularで記述されたView関連のコードが格納されています
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).

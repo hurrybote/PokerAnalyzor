@@ -1,5 +1,23 @@
-// p1の時の値が高いものから%が上がるごとに表示できるようにする
+export class WinRatio {
+  ply: string;
+  win: number;
+}
 
+export let WIN_RATIO: WinRatio[] = [
+  {ply:"ply1-win", win:0},
+  {ply:"ply2-win", win:0},
+  {ply:"ply3-win", win:0},
+  {ply:"ply4-win", win:0},
+  {ply:"ply5-win", win:0},
+  {ply:"ply6-win", win:0},
+  {ply:"ply7-win", win:0},
+  {ply:"ply8-win", win:0},
+  {ply:"ply9-win", win:0}
+]
+
+
+// p1の時の値が高いものから%が上がるごとに表示できるようにする
+// ハンドレンジ用
 export class HandPair {
   name: string;
   color: number;

@@ -3,11 +3,12 @@ import { HAND_PAIR, HandPair } from './hand-pair';
 import { Players } from './players';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Observable } from 'rxjs';
-
+import { WinRatio } from './hand-pair';
 
 @Injectable({
   providedIn: 'root'
 })
+
 export class OddsSimulationService {
   private max_ratio = this.get_max();
   private min_ratio = this.get_min();
@@ -83,16 +84,18 @@ export class OddsSimulationService {
     return temp;
   }
 
-  change_src_for_img(players, src, selectedPlayer){
-    src = src.replace("small_trump", "trump");
+  change_src_for_img(players, card, selectedPlayer){
+    card.src = card.src.replace("small_trump", "trump");
     // console.log(src);
     for(let i=0; i<players.length; i++){
-      if(selectedPlayer.name === players[i].name && (players[i].left_src != src && src != players[i].right_src)){
+      if(selectedPlayer.name === players[i].name && (players[i].left_src != card.src && card.src != players[i].right_src)){
         if(players[i].pic_flag === 0){
-          players[i].left_src = src;
+          players[i].left_src = card.src;
+          players[i].left = {name:card.name, suit:card.suit}
           players[i].pic_flag = 1;
         }else{
-          players[i].right_src = src;
+          players[i].right_src = card.src;
+          players[i].right = {name:card.name, suit:card.suit}
           players[i].pic_flag = 0;
         }
       }
@@ -100,15 +103,18 @@ export class OddsSimulationService {
     return players;
   }
 
-  change_src_for_board(board, src, click_flag){
-    src = src.replace("small_trump", "trump");
+  change_src_for_board(board, card, click_flag){
+    card.src = card.src.replace("small_trump", "trump");
     // console.log(this.preflop_flag);
     if(click_flag === 1){
-      board.preflop_src[this.preflop_flag] = src;
+      board.preflop_src[this.preflop_flag] = card.src;
+      board.preflop[this.preflop_flag] = {name:card.name, suit:card.suit}
     }else if(click_flag === 2){
-      board.turn_src = src;
+      board.turn_src = card.src;
+      board.turn = {name:card.name, suit:card.suit}
     }else{
-      board.river_src = src;
+      board.river_src = card.src;
+      board.turn = {name:card.name, suit:card.suit}
     }
 
     return board;
@@ -221,9 +227,31 @@ export class OddsSimulationService {
     return cardList;
   }
 
-  calculate_ratio(player, board): Promise<any>{
-    console.log(player);
-    console.log(board);
+  public clear_src_for_board(board){
+    board["preflop_src"] = ["assets/trump_space.png", "assets/trump_space.png", "assets/trump_space.png"]
+    board["preflop"] = [{},{},{}];
+    board["turn"] = {};
+    board["river"] = {};
+    board["turn_src"] = "assets/trump_space.png";
+    board["river_src"] = "assets/trump_space.png"
+    return board;
+  }
+
+  public clear_src_for_player(players){
+
+    for(let i=0; i<players.length;i++){
+      players[i].left_src = "assets/trump_space.png";
+      players[i].left = {};
+      players[i].right_src = "assets/trump_space.png";
+      players[i].right = {};
+    }
+
+    return players;
+  }
+
+  public calculate_ratio(player, board):Promise<any>{
+    // console.log(player);
+    // console.log(board);
 
     let card_dict = {
       player: player, board: board
@@ -238,6 +266,7 @@ export class OddsSimulationService {
       .toPromise()
       .then((res) => {
         console.log(res);
+        return res;
       })
   }
 

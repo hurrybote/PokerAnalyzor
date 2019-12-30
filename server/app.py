@@ -17,10 +17,10 @@ def index():
 def calc_win_ratio():
     if request.method == 'POST':
         print('get request from front')
+        # print(request.json)
         ratio = calcu_ratio(request.json)
     # return Jsonify()
     return jsonify(ratio)
-
 
 
 # uploadされたファイルをDBに保存

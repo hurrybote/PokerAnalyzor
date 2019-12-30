@@ -7,7 +7,7 @@ def put_data_db(trump_df, table_name, conn):
 
 
 def create_card_table(dbname, table_name):
-    create_table = 'create table IF NOT EXISTS {} (id int, name text, suit text)'.format(table_name)
+    create_table = 'create table IF NOT EXISTS {} (id int, name number, suit text)'.format(table_name)
 
     cur.execute(create_table)
     conn.commit()

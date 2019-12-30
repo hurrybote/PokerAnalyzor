@@ -11,6 +11,9 @@
             <div class="calculate-btn">
                 <button mat-raised-button color="primary" (click)="calculate_ratio()">Calculate Ratio</button>
             </div>
+            <div class="clear-btn">
+                <button mat-raised-button color="basic" (click)="clear_all()">Clear</button>
+            </div>
         </div>
     </div>
     
@@ -19,6 +22,11 @@
         <div *ngFor="let pl of players" id="{{pl.name}}" (click)="onClickPop(pl, 0)">
             <img id="{{pl.name}}" style="width:80px;height:auto;" src="{{pl.left_src}}">
             <img id="{{pl.name}}" style="width:80px;height:auto;" src="{{pl.right_src}}">
+            <div class="text-box" id="{{pl.ratio.ply}}">
+                <div style="text-align:center;color:white;">{{pl.name}}</div>
+                <div style="text-align:center;color:white;">win</div>
+                <div style="text-align:center;color:white;" *ngIf="win_ratio_flag==1">{{pl.ratio.win | percent}}</div>
+            </div>
         </div>
     </div>
 
