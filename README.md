@@ -15,6 +15,8 @@ Angular-cli ver.8.0.6
 ### How To Use
 ply1から順番にプレイヤーに配られたスターティングハンドを入力し，左上のCalculateボタンを押します．
 
+それぞれのプレイヤーに配られたハンドとボードのカードを外したい時はclearボタンを押してください
+
 ## PokerAnalyzor(BACK)
 Python ver.3.6.5
 
